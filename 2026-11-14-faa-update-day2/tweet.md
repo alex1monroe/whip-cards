@@ -1,8 +1,8 @@
 Reply to our own UPDATE post https://x.com/whipcampaigns/status/2121457689548984441
 
-UPDATE: Day two, and America still can't fly right. 3,000+ more flights canceled Saturday. College football games pushed to Sunday.
+UPDATE: Day two, and America still can't fly. 3,000+ more flights canceled Saturday. College football games pushed to Sunday.
 
-Officials now say new tech bolted onto old equipment is what overloaded it.
+Officials now say new tech bolted onto old equipment overloaded it.
 
 Thanksgiving is less than two weeks out. Do you trust the system by then?
 
