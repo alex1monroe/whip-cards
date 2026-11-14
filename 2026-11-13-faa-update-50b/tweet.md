@@ -1,10 +1,10 @@
-UPDATE (quote of @SecDuffy https://x.com/SecDuffy/status/2121429359420420310)
+Quote of @SecDuffy https://x.com/SecDuffy/status/2121429359420420310
 
-UPDATE: Hours after every flight in America was grounded, the administration raised its air traffic control ask to $50B.
+UPDATE: Hours after every flight in America was grounded, the ask to fix air traffic control jumped to $50B.
 
-The cause, per Duffy: old routers and switches overloaded with data.
+The cause, per Duffy: old routers overloaded with data.
 
-Nobody is arguing it isn't broken. They're arguing over who pays.
+Nobody says it isn't broken. The fight is over who pays.
 
 Should Congress pass it fast, or demand a plan first?
 
