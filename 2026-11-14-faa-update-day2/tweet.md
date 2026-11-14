@@ -1,6 +1,6 @@
 Reply to our own UPDATE post https://x.com/whipcampaigns/status/2121457689548984441
 
-UPDATE: Day two, and America still can't fly. 3,000+ more flights canceled Saturday. College football games pushed to Sunday.
+UPDATE: Day two, and the mess isn't over. 3,000+ more flights canceled Saturday. College football games pushed to Sunday.
 
 Officials now say new tech bolted onto old equipment overloaded it.
 
