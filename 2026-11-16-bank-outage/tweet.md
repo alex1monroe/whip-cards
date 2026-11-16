@@ -1,7 +1,7 @@
-Quote of @unusual_whales 2122399803997143458 (draft, not posted)
+Quote of @AP 2122402906796159199 (draft, not posted; supersedes the 1:44 PM @unusual_whales draft)
 
-BREAKING: Chase says it's working to fix an online banking issue. Users also report problems at Bank of America and Wells Fargo.
+BREAKING: Online banking is down at several major U.S. banks (AP).
 
-Downdetector logged 3,300+ Chase outage reports (NY Post). No bank has disclosed a cause.
+Chase calls it a technical issue: some transactions delayed, but accounts and funds still accessible. Wells Fargo confirms online banking is temporarily unavailable.
 
 Should banks have to disclose what caused a major outage?
