@@ -1,7 +1,7 @@
 Reply to our own BREAKING post 2122407336815857856 (draft, not posted)
 
-UPDATE: Chase calls it a technical issue. Some transactions are delayed, but customers still have access to their accounts and funds, the bank says.
+UPDATE: Chase calls it a technical issue. Some transactions are delayed, but customers still have access to their accounts and funds.
 
-Wells Fargo confirms online banking is temporarily unavailable. ATMs and branches still work.
+Wells Fargo says online banking is temporarily unavailable. ATMs and branches work.
 
 A source told CNBC there's no sign of bad actors at Chase.
