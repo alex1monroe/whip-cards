@@ -4,4 +4,4 @@ BREAKING: Chase says it's working to fix an online banking issue. Users also rep
 
 Downdetector logged 3,300+ Chase outage reports (NY Post). No bank has disclosed a cause.
 
-Should banks have to publicly disclose what caused a major outage?
+Should banks have to disclose what caused a major outage?
