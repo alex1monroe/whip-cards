@@ -4,4 +4,4 @@ UPDATE: Chase says the outage came from "a software bug in on-premise hardware s
 
 It says other banks were hit only on transactions with Chase, and it aims to fix it by end of day.
 
-Should banks have to publicly report outages like this?
+Should banks have to report outages like this?
