@@ -1,6 +1,6 @@
 BREAKING draft (not posted). Quote @CBSNews https://x.com/CBSNews/status/2123508384183816395 (3:07 PM ET Nov 19), with card. No AP X post found yet.
 
-BREAKING: The Senate rejected a resolution directing Trump to end the Iran war, 51-48, per Reuters and CBS. It was the first vote on the war in either chamber since the midterms.
+BREAKING: The Senate rejected a resolution directing Trump to end the Iran war, 51-48, per Reuters and CBS. It was the first war vote in either chamber since the midterms.
 
 Collins, Murkowski and Paul voted yes. Fetterman was the only Democrat to vote no.
 
