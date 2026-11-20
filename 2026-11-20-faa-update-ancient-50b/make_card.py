@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """UPDATE card: Trump calls U.S. air traffic control "ancient," backs $50B rebuild request
-(White House news conference, Nov 20, 2026; BBC, Washington Times). Draft only. Illustration, not a screenshot.
+(White House news conference, Nov 20, 2026; BBC, PBS NewsHour, WBAY). Draft only. Illustration, not a screenshot.
 Adapted from 2026-11-20-data-center-tax/make_data_center_tax_card.py; uses the shared Whip v4 base."""
 import shutil, sys
 from pathlib import Path
@@ -44,7 +44,7 @@ graphic = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="262" v
 </svg>'''
 
 html = wrap(f"""
-<div class="footer"><span>Sources: BBC, Washington Times, Nov. 20, 2026. Illustration.</span><span>Whip illustration &middot; not an FAA graphic</span></div>
+<div class="footer"><span>Sources: BBC, PBS NewsHour, WBAY, Nov. 20, 2026.</span><span>Whip illustration &middot; not an FAA graphic</span></div>
 <div class="tag"><span class="dot"></span>UPDATE &middot; FAA GROUND STOP</div>
 <div class="left">
   <div class="h1"><span class="y">&ldquo;ANCIENT.&rdquo;</span></div>
