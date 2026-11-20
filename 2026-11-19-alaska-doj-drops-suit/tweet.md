@@ -1,8 +1,8 @@
 UPDATE draft (not posted). Primary: quote @AP BREAKING https://x.com/AP/status/2123583801318092832 (8:06 PM ET Nov 19) via Buffer. Alt: reply to our Alaska UPDATE https://x.com/whipcampaigns/status/2123026715400167879 via X to keep the thread.
 
-UPDATE: The Trump administration moved Thursday to effectively drop its lawsuit seeking to block certification of Democrat Mary Peltola's Alaska Senate win, per AP.
+UPDATE: The Trump administration moved Thursday to effectively drop its suit to block certification of Democrat Mary Peltola's Alaska Senate win, per AP.
 
-The Justice Department told the 9th Circuit the case is moot. Alaska aims to certify results Nov. 25.
+DOJ told the 9th Circuit the case is moot. Alaska aims to certify results Nov. 25.
 
 Are you ahead or catching up?
 
