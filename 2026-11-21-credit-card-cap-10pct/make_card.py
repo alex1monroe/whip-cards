@@ -36,7 +36,7 @@ legend = (f'<line x1="0" y1="226" x2="{W}" y2="226" stroke="#3a3a44" stroke-widt
 graphic = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="288" viewBox="0 0 {W} 288">{"".join(parts)}{legend}</svg>'
 html = wrap(f"""
 <div class="footer"><span>Sources: Fox News / Saturday in America (Nov. 21, 2026); Federal Reserve G.19 (Nov. 6, 2026), Q3 2026; AP, NBC News. Illustration.</span><span>Whip illustration &middot; not a Fed or Fox graphic</span></div>
-<div class="tag"><span class="dot"></span>BREAKING &middot; CREDIT CARDS</div>
+<div class="tag"><span class="dot"></span>NEW &middot; CREDIT CARDS</div>
 <div class="left">
   <div class="h1">A 10% CAP<br><span class="r">ON CARD RATES?</span></div>
   <div class="h2">TRUMP SAYS HE&rsquo;D WORK WITH<br>DEMOCRATS ON A ONE-YEAR CAP</div>
