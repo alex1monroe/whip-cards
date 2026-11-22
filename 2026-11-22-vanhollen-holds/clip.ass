@@ -1,0 +1,27 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,51,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,4,0,2,70,70,58,1
+Style: Credit,DejaVu Sans,22,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,9,20,20,16,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:33.80,Credit,,0,0,0,,Whip  @whipcampaigns\NSen. Chris Van Hollen (D-Md.)\NSource: @ChrisVanHollen, Nov. 21, 2026
+Dialogue: 0,0:00:00.08,0:00:03.00,Default,,0,0,0,,One is to prevent one person,\Nthe majority leader,
+Dialogue: 0,0:00:03.02,0:00:07.06,Default,,0,0,0,,from blocking legislation,\Nbipartisan legislation
+Dialogue: 0,0:00:07.06,0:00:09.40,Default,,0,0,0,,that can pass\Nthe Senate committee,
+Dialogue: 0,0:00:09.48,0:00:13.50,Default,,0,0,0,,get out of committee, but never\Nget a vote on the Senate floor,
+Dialogue: 0,0:00:13.54,0:00:15.02,Default,,0,0,0,,blocked by one person.
+Dialogue: 0,0:00:15.02,0:00:17.70,Default,,0,0,0,,So Senator Merkley and Senator\NDaines,
+Dialogue: 0,0:00:17.72,0:00:20.42,Default,,0,0,0,,Democrat and Republican,\Nhave proposed a rules change
+Dialogue: 0,0:00:20.42,0:00:23.24,Default,,0,0,0,,that says when you have\Na bipartisan bill
+Dialogue: 0,0:00:23.24,0:00:26.30,Default,,0,0,0,,coming out of committee,\Nthat it gets
+Dialogue: 0,0:00:26.30,0:00:29.20,Default,,0,0,0,,a fast-track approval\Nin the Senate.
+Dialogue: 0,0:00:29.30,0:00:32.40,Default,,0,0,0,,So that means it\Ngets a vote in the full Senate.
+Dialogue: 0,0:00:32.48,0:00:33.80,Default,,0,0,0,,That's democracy.
