@@ -1,0 +1,19 @@
+# Water stockpiling original (DRAFT ONLY — do not post)
+
+TEXT (269):
+Walmart's CFO told Yahoo Finance jug bottled water and propane are selling at higher comps after last week's outages, a relatively small lift. U.K. bottled-water sales rose 67% after Be Ready, Worldpanel data show. DNI Clayton said the outages were "not a cyberattack."
+
+Sources (pages actually read):
+- Yahoo Finance, Nov. 19, 2026, 2:19 PM ET: Walmart CFO John David Rainey — "We have seen a small amount of that. Certainly categories like jug bottled water or propane are selling at higher comps with that concern, but it's really relatively small to our overall business. It's worth noting that oftentimes when we see that, it's a pull forward of future demand." https://finance.yahoo.com/markets/article/walmart-costco-see-some-panic-buying-after-tech-outages-191922568.html
+- Reuters via Investing.com, Nov. 19: Walmart spokesperson told Reuters shoppers were stocking up on propane, bottled water and camping gear earlier this month; Bloomberg first reported the Rainey interview. https://www.investing.com/news/stock-market-news/walmart-says-us-shoppers-stocked-up-after-tech-outages-5039691
+- Costco CFO Gary Millerchip, email to Bloomberg, toward the end of October, quoted by NY Post (Nov. 17) and Transport Topics: "increased buying on certain items including rice, canned goods, water, paper products, generators, batteries and similar items seemingly in response to a variety of concerns on social media." https://nypost.com/2026/11/17/business/costco-shoppers-panic-buy-water-generators-after-freak-outages/ https://www.ttnews.com/articles/costco-customers-panic-buying
+- Mizuho analyst David Bellinger, note dated Nov. 16, reported by Reuters (Nov. 17) and CNBC (Nov. 18): outages and "apocalyptic concerns flaring up across social media" "have all contributed to increased emergency prep sales at Costco"; 21 of 26 high-ticket generators sold out online as of Nov. 15. https://www.investing.com/news/stock-market-news/costco-sees-demand-lift-from-outagedriven-stockpiling-mizuho-says-5034318 https://www.cnbc.com/2026/11/18/tech-outage-costco-panic-buying.html
+- The Guardian, Nov. 10: Worldpanel by Numerator — in the 10 days after the U.K. Be Ready launch, bottled water sales rose 67%, tinned and jarred goods 37%, hand sanitiser 83%, vs the same period last year; "this wasn't panic buying." https://www.theguardian.com/business/2026/nov/10/britons-stockpiling-water-food-tins-panic-buy-be-ready
+- BBC, Oct. 23: PM Andy Burnham / Be Ready — three days' bottled water and tinned food; nine litres of water per person. https://www.bbc.co.uk/news/articles/ckr5yz2pqqppo
+- White House, Nov. 18: DNI Jay Clayton: "This is not a cyberattack, and this is not a coordinated effort by a nation state." Rubio: incidents not related. https://www.whitehouse.gov/releases/2026/11/no-indication-of-a-cyberattack-dni-clayton-and-secretary-rubio-on-recent-tech-outages/
+- Ready.gov/water (last updated 02/22/2021): store at least one gallon of water per person per day for several days. https://www.ready.gov/water
+- CBS News, Nov. 19 (Megan Cerullo): Costco/Walmart stocking; Tractor Supply increased demand; RBC/Circana figures. Officials said outages are not connected and were not cyberattacks. https://www.cbsnews.com/news/doomsday-prepping-scenarios-walmart-costco-technology-outages/
+- CBS News, Nov. 23, 11:15 AM ET (Emmet Lyons): European government 72-hour campaigns; repeats Worldpanel 67%; Costco/Mizuho. https://www.cbsnews.com/news/prepping-comes-to-europe-government-advice-stockpile-food-water/
+- Yomiuri, Nov. 2: Japan's new disaster agency; Minister Hosono urgent request for water and food, at least 3 days, preferably 1 week. https://www.yomiuri.co.jp/national/20261102-GYT1T00146/
+
+Card: (SHA and raw URL to be filled after push)
