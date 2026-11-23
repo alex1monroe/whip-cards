@@ -31,7 +31,7 @@ html = wrap(f"""
 <div class="tag"><span class="dot"></span>UPDATE &middot; WHITE HOUSE CYBER</div>
 <div class="left">
   <div class="h1">NEW ACTING<br><span class="y">CYBER CHIEF</span></div>
-  <div class="h2">DNI CLAYTON ADDS<br>A SECOND ROLE</div>
+  <div class="h2">CLAYTON ADDS<br>CYBER ROLE</div>
   <div class="att">The Director of National Intelligence will run the Office of the National Cyber Director for now.</div>
 </div>
 <div class="panel">
@@ -40,7 +40,7 @@ html = wrap(f"""
 </div>
 <div class="strip">
   <div class="wt">WHAT THIS<br><span class="y">MEANS</span></div>
-  <div class="b"><div class="n">01</div><div><b>Two roles:</b> Clayton stays DNI while coordinating U.S. cyber policy.</div></div>
+  <div class="b"><div class="n">01</div><div><b>Three roles:</b> Clayton stays DNI and AI czar while also running ONCD.</div></div>
   <div class="b"><div class="n">02</div><div><b>The nominee:</b> Davies advises Clayton until the Senate confirms her.</div></div>
   <div class="b"><div class="n">03</div><div><b>The outages:</b> officials say they came from patches and upgrades, not an attack.</div></div>
 </div>
