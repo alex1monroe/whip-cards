@@ -31,8 +31,8 @@ html = wrap(f"""
 <div class="footer"><span>Source: The Washington Sun (Nov. 23, 2026). Illustration.</span><span>Whip illustration &middot; not a government or news graphic</span></div>
 <div class="tag"><span class="dot"></span>UPDATE &middot; SOCIAL SECURITY</div>
 <div class="left">
-  <div class="h1">TRUMP BACKS<br><span class="y">CASSIDY'S PLAN</span></div>
-  <div class="h2">TREASURY TOLD TO HELP A<br>$1.5 TRILLION FIX</div>
+  <div class="h1">TREASURY TOLD TO<br><span class="y">HELP CASSIDY PLAN</span></div>
+  <div class="h2">A $1.5 TRILLION<br>SOCIAL SECURITY FIX</div>
   <div class="att">Odds of passage this Congress are very low, with a few weeks left, per The Washington Sun.</div>
 </div>
 <div class="panel">
@@ -50,7 +50,7 @@ body{background:radial-gradient(ellipse at 70% 38%,#0b2a4a 0%,#0a1a2a 45%,#09090
 .tag{position:absolute;top:76px;left:48px;display:flex;align-items:center;gap:10px;background:#ff2d2a;color:#f4f0e6;font-family:'Archivo Black',sans-serif;font-size:18px;letter-spacing:.18em;padding:7px 14px 6px;z-index:5}
 .dot{width:10px;height:10px;border-radius:50%;background:#ffcc00;display:inline-block}
 .left{position:absolute;left:48px;top:122px;width:500px;z-index:5}
-.h1{font-family:'Anton',sans-serif;font-size:72px;line-height:.98;color:#f4f0e6;letter-spacing:.01em}
+.h1{font-family:'Anton',sans-serif;font-size:64px;line-height:.98;color:#f4f0e6;letter-spacing:.01em}
 .h2{font-family:'Anton',sans-serif;font-size:28px;line-height:1.02;color:#f4f0e6;margin-top:8px}
 .att{font-family:'Inter',sans-serif;font-size:15px;line-height:1.35;color:#c8c4ba;margin-top:10px;width:470px}
 .y{color:#ffcc00}
