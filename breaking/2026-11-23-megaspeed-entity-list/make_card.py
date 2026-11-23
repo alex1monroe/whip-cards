@@ -15,7 +15,7 @@ parts.append(f'<text x="0" y="22" font-family="Archivo Black" font-size="14" let
 parts.append(f'<text x="0" y="44" font-family="Inter" font-size="13" font-weight="600" fill="{MUTE}">Per Nvidia, Semafor, Reuters and Senate Banking chair Tim Scott</text>')
 rows = [("NOV 23", "Huang reinstated", "Unanimous board vote (Nvidia)", BLU),
         ("NOV 23", "Megaspeed blacklist", "Commerce to add it to the Entity List (Semafor)", RED),
-        ("NOW", "License needed", "To sell it U.S. chips and certain tech (Semafor)", MUTE),
+        ("THEN", "License rule", "To sell it U.S. chips and certain tech (Semafor)", MUTE),
         ("DEC 3", "Public hearing", "Senate Banking, on chip export controls (Scott)", YEL)]
 y = 62
 for d, lab, note, col in rows:
@@ -30,7 +30,7 @@ html = wrap(f"""
 <div class="footer"><span>Sources: Semafor (Nov. 23); Reuters; Nvidia; Sen. Tim Scott. Illustration.</span><span>Whip illustration &middot; not a government or news graphic</span></div>
 <div class="tag"><span class="dot"></span>UPDATE &middot; AI CHIPS</div>
 <div class="left">
-  <div class="h1">MEGASPEED<br><span class="y">BLACKLISTED</span></div>
+  <div class="h1">MEGASPEED TO BE<br><span class="y">BLACKLISTED</span></div>
   <div class="h2">COMMERCE MOVES ON THE<br>FIRM AT THE CENTER</div>
   <div class="att">Sources told Semafor and Reuters the Singapore firm goes on the Entity List the same day Nvidia reinstated Huang.</div>
 </div>
@@ -40,7 +40,7 @@ html = wrap(f"""
 </div>
 <div class="strip">
   <div class="wt">WHAT THIS<br><span class="y">MEANS</span></div>
-  <div class="b"><div class="n">01</div><div><b>The rule:</b> U.S. firms need a license to sell it chips or certain tech, affiliates too.</div></div>
+  <div class="b"><div class="n">01</div><div><b>The rule:</b> U.S. firms would need a license to sell it chips or certain tech, affiliates too.</div></div>
   <div class="b"><div class="n">02</div><div><b>The probe:</b> DOJ is investigating whether it shipped Nvidia chips to China.</div></div>
   <div class="b"><div class="n">03</div><div><b>Next:</b> Huang faces Senate Banking on export controls Dec. 3.</div></div>
 </div>
