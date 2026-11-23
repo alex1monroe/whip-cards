@@ -28,7 +28,7 @@ for lab, price, _, bw, col in rows:
     is_today = (lab == "TODAY")
     parts.append(f'<rect x="0" y="{y}" width="{W}" height="54" rx="4" fill="#15151b" stroke="{col}" stroke-width="{3 if is_today else 1.5}"/>')
     parts.append(f'<text x="16" y="{y+34}" font-family="Archivo Black" font-size="14" letter-spacing="1.1" fill="{YEL if is_today else PAPER}">{lab}</text>')
-    parts.append(f'<rect x="168" y="{y+18}" width="{bw - 40}" height="18" rx="3" fill="{col}" opacity="0.9"/>')
+    parts.append(f'<rect x="168" y="{y+18}" width="{bw - 68}" height="18" rx="3" fill="{col}" opacity="0.9"/>')
     parts.append(f'<text x="{W - 18}" y="{y+38}" text-anchor="end" font-family="Anton" font-size="28" fill="{col}">{price}</text>')
     y += 62
 H = y
