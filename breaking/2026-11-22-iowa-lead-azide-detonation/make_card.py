@@ -32,7 +32,7 @@ html = wrap(f"""
 <div class="left">
   <div class="h1">IOWA BLAST<br><span class="y">MOVED TO WED.</span></div>
   <div class="h2">NEARLY 5 TONS OF DEGRADED<br>LEAD AZIDE, MIDDLETOWN, IA</div>
-  <div class="att">The Army says the explosive is unsafe to move and a controlled detonation is the safest option. It expects the blast to release dust containing lead.</div>
+  <div class="att">The Army expects the blast to release dust containing lead.</div>
 </div>
 <div class="panel">
   <div class="ph">THE SCHEDULE &middot; WHIP ILLUSTRATION</div>
@@ -40,7 +40,7 @@ html = wrap(f"""
 </div>
 <div class="strip">
   <div class="wt">WHAT THIS<br><span class="y">MEANS</span></div>
-  <div class="b"><div class="n">01</div><div><b>The court:</b> a federal appeals court paused the EPA permit Thursday while it weighs a challenge.</div></div>
+  <div class="b"><div class="n">01</div><div><b>The court:</b> a federal appeals court paused the environmental permit Thursday while it weighs a challenge.</div></div>
   <div class="b"><div class="n">02</div><div><b>The Army's case:</b> DOJ says it can still act under an emergency exemption.</div></div>
   <div class="b"><div class="n">03</div><div><b>The states:</b> Iowa opened its emergency operations center Friday; Illinois is monitoring.</div></div>
 </div>
