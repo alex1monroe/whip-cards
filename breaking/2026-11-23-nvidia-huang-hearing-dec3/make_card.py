@@ -27,7 +27,7 @@ for d, lab, note, col in rows:
 H = y
 graphic = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{"".join(parts)}</svg>'
 html = wrap(f"""
-<div class="footer"><span>Sources: Sen. Tim Scott statement (Nov. 23) via Bloomberg; Axios; Nvidia; WSJ. Illustration.</span><span>Whip illustration &middot; not a Senate or news graphic</span></div>
+<div class="footer"><span>Sources: Sen. Tim Scott notice (Nov. 23) via Politico &amp; Washington Times; Axios; Nvidia; WSJ. Illustration.</span><span>Whip illustration &middot; not a Senate or news graphic</span></div>
 <div class="tag"><span class="dot"></span>UPDATE &middot; AI CHIPS</div>
 <div class="left">
   <div class="h1">HUANG HEADS<br><span class="y">TO THE SENATE</span></div>
@@ -42,7 +42,7 @@ html = wrap(f"""
   <div class="wt">WHAT THIS<br><span class="y">MEANS</span></div>
   <div class="b"><div class="n">01</div><div><b>On the record:</b> Huang answers senators in public, not behind closed doors.</div></div>
   <div class="b"><div class="n">02</div><div><b>The topic:</b> oversight of U.S. export controls on advanced AI chips.</div></div>
-  <div class="b"><div class="n">03</div><div><b>Next Congress:</b> Schumer says Democrats will investigate the reinstatement.</div></div>
+  <div class="b"><div class="n">03</div><div><b>Democrats:</b> Schumer says they will &ldquo;investigate any wrongdoing&rdquo; by the administration and Nvidia.</div></div>
 </div>
 """, """
 body{background:radial-gradient(ellipse at 70% 38%,#14401a 0%,#0b2410 45%,#09090b 82%)}
