@@ -4,16 +4,18 @@ Draft only. Not posted or scheduled. For Approver, then Alex. Card goes on post 
 
 Target: @whipcampaigns 4-post morning thread (standalones via Buffer after clearance and Alex's OK). Do not post from this file.
 
+Approver fixes applied Nov 24. Post 4 uses "It" because "That issue" was 281 characters.
+
 Alt text:
 
-Whip illustration, not a news graphic. Headline: The name vs. the bill. Washington spent the weekend arguing over "TrumpCare." As of Nov. 23, health care costs ranked No. 1 of the 60 issues Whip tracks. Left column, the name: El-Sayed pitches a gold "TrumpCare" card for universal coverage (Nov. 12-17); Trump reposts it on Truth Social with no comment (Nov. 21); the White House had already blasted the idea (Nov. 17). Right column, the bill: health care costs ranked No. 1 of 60 as of Nov. 23; Medicare for All online attention up 99% on Nov. 22; health care costs attention down 3.4% on Nov. 22. Bottom strip: the pitch, the other side (Hasan Piker vs. Sen. Rand Paul's ~$47 trillion post; a White House 10-year estimate is $47.4 trillion), and Whip ranks and percent moves only, no scores.
+Whip illustration, not a news graphic. Headline: The name vs. the bill. Washington spent the weekend arguing over "TrumpCare." As of Nov. 23, health care costs & insurance premiums ranked No. 1 of the 60 issues Whip tracks. Left column, the name: El-Sayed pitches a gold "TrumpCare" card for universal coverage (Nov. 12-17); Trump reposts it on Truth Social with no comment (Nov. 21); the White House had already blasted the idea (Nov. 17). Right column, the bill: health care costs & insurance premiums ranked No. 1 of 60 as of Nov. 23; Medicare for All & single-payer online attention up 99% on Nov. 22, then down 17.6% on Nov. 23; health care costs & insurance premiums attention down 3.4% on Nov. 22, then up 7.9% on Nov. 23. Bottom strip: the pitch, the other side (Hasan Piker vs. Sen. Rand Paul's ~$47 trillion post; a White House 10-year estimate is $47.4 trillion), and Whip ranks and percent moves only, no scores, including the Nov. 23 moves.
 
-## 1 / 4 — 165 characters
+## 1 / 4 — 186 characters
 
 ```
 Washington spent the weekend arguing over a name: "TrumpCare."
 
-As of Nov. 23, health care costs ranked No. 1 of the 60 issues Whip tracks — the bill, not the brand.
+As of Nov. 23, health care costs & insurance premiums ranked No. 1 of the 60 issues Whip tracks — the bill, not the brand.
 ```
 
 ## 2 / 4 — 212 characters
@@ -24,20 +26,20 @@ The pitch: Michigan Sen.-elect Abdul El-Sayed proposed branding universal covera
 The White House had already blasted the idea.
 ```
 
-## 3 / 4 — 247 characters
+## 3 / 4 — 245 characters
 
 ```
-The other side: Hasan Piker called it "awesome" that Trump keeps "promoting it to his base." Sen. Rand Paul posted that Medicare for All would cost taxpayers ~$47 trillion.
+The reaction: Hasan Piker called it "awesome" that Trump keeps "promoting it to his base." Sen. Rand Paul posted that Medicare for All would cost taxpayers ~$47 trillion.
 
 A White House estimate puts the 10-year deficit impact at $47.4 trillion.
 ```
 
-## 4 / 4 — 224 characters
+## 4 / 4 — 273 characters
 
 ```
-Per Whip, online attention to Medicare for All nearly doubled on Nov. 22, up 99%. Attention to health care costs slipped 3.4%.
+Per Whip, online attention to Medicare for All & single-payer nearly doubled on Nov. 22, up 99%, then fell 17.6% on Nov. 23. Attention to health care costs & insurance premiums dipped 3.4%, then rose 7.9%.
 
-As of Nov. 23, health care costs still ranked No. 1 of 60 issues.
+It still ranked No. 1 of 60 issues.
 
 Are you ahead or catching up?
 ```
@@ -55,4 +57,4 @@ Are you ahead or catching up?
 - White House CEA, October 2026, "The Real Cost of Socialism in America": https://www.whitehouse.gov/wp-content/uploads/2026/10/The-Real-Cost-of-Socialism-In-America-Report.pdf
 - House Budget Committee, Oct. 20, 2026: https://budget.house.gov/press-release/exposing-the-true-cost-of-medicare-for-all
 - 2paragraphs recap of Paul's post, Nov. 22: https://2paragraphs.com/2026/11/rand-paul-medicare-for-all-not-free-costs-taxpayers-47-trillion-jayapal-not-out-of-reach/
-- Whip /civic/issues live pull: 2026-11-24 07:46:18 ET (America/New_York), https://api.whipcampaigns.com/civic/issues , data day 2026-11-23, pollsValidAt 2026-11-16
+- Whip /civic/issues live pull: 2026-11-24 07:46:18 ET (America/New_York), labels reconfirmed 2026-11-24 07:54:01 ET, https://api.whipcampaigns.com/civic/issues , data day 2026-11-23, pollsValidAt 2026-11-16. Exact labels: "Health care costs & insurance premiums"; "Medicare for All & single-payer".
