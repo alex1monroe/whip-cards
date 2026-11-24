@@ -15,7 +15,7 @@ RED, YEL, BLU, INK, PAPER, MUTE = "#ff2d2a", "#ffcc00", "#3d8bff", "#09090b", "#
 # segment colors: supporters (blue), opponents (orange), not sure (grey)
 SEG = [("Supporters, a lot", "#3d8bff", PAPER), ("Supporters, a little", "#8fbaff", INK),
        ("Opponents, a little", "#e8935a", INK), ("Opponents, a lot", "#d9541e", PAPER), ("Not sure", "#5a5850", PAPER)]
-ROWS = [("EVERYONE", [10, 15, 15, 33, 28]), ("SWING", [9, 16, 16, 32, 26]), ("TRUMP VOTERS", [16, 21, 18, 11, 35])]
+ROWS = [("EVERYONE", [10, 15, 15, 33, 28]), ("HARRIS", [4, 8, 12, 55, 21]), ("SWING", [9, 16, 16, 32, 26]), ("TRUMP VOTERS", [16, 21, 18, 11, 35])]
 parts = []
 parts.append(f'<text x="0" y="22" font-family="Archivo Black" font-size="14" letter-spacing="1.6" fill="{PAPER}">WHO DO YOU AGREE WITH MORE?</text>')
 parts.append(f'<text x="0" y="44" font-family="Inter" font-size="13" font-weight="600" fill="{MUTE}">Per survey charts David Shor shared Nov. 23 &#183; % of respondents</text>')
@@ -28,17 +28,17 @@ for i, (lab, col, _) in enumerate(SEG):
     lx += 18 + len(lab) * 7.6 + 22
 LBL = 138
 BW = W - LBL
-y = 112
+y = 108
 for name, vals in ROWS:
-    parts.append(f'<text x="0" y="{y+33}" font-family="Archivo Black" font-size="13" letter-spacing="0.6" fill="{PAPER}">{name}</text>')
+    parts.append(f'<text x="0" y="{y+26}" font-family="Archivo Black" font-size="13" letter-spacing="0.6" fill="{PAPER}">{name}</text>')
     x = LBL
     tot = sum(vals)
     for v, (lab, col, tc) in zip(vals, SEG):
         w = BW * v / tot
-        parts.append(f'<rect x="{x:.1f}" y="{y}" width="{w:.1f}" height="50" fill="{col}" stroke="#09090b" stroke-width="1.5"/>')
-        parts.append(f'<text x="{x+w/2:.1f}" y="{y+32}" text-anchor="middle" font-family="Anton" font-size="21" fill="{tc}">{v}</text>')
+        parts.append(f'<rect x="{x:.1f}" y="{y}" width="{w:.1f}" height="40" fill="{col}" stroke="#09090b" stroke-width="1.5"/>')
+        parts.append(f'<text x="{x+w/2:.1f}" y="{y+28}" text-anchor="middle" font-family="Anton" font-size="{19 if w>24 else 15}" fill="{tc}">{v}</text>')
         x += w
-    y += 62
+    y += 48
 H = y - 4
 graphic = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{"".join(parts)}</svg>'
 html = wrap(f"""
@@ -47,7 +47,7 @@ html = wrap(f"""
 <div class="left">
   <div class="h1">MORE SIDE WITH<br><span class="y">THE OPPONENTS</span></div>
   <div class="h2">NEW SURVEY ON NVIDIA<br>BRINGING BACK HUANG</div>
-  <div class="att">The question&rsquo;s premise: Trump pushed Nvidia&rsquo;s board to bring back Huang and said he gave it assurances about Huang&rsquo;s legal standing. Opponents say a president should not be picking who runs a private company.</div>
+  <div class="att">The question&rsquo;s premise: Trump pushed Nvidia&rsquo;s board to bring back Huang and said he gave it assurances about Huang&rsquo;s legal standing. Supporters say Huang hasn&rsquo;t been charged and Nvidia must run at full strength to stay ahead of China. Opponents say a president shouldn&rsquo;t pick who runs a private company.</div>
 </div>
 <div class="panel">
   <div class="ph">THE SURVEY &middot; WHIP ILLUSTRATION</div>
