@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""UPDATE card: AP calls Tennessee's 4th District for Democrat Victoria Broderick over Rep. Scott DesJarlais (R)
-(Tue Nov 24, 2026, 11:12 a.m. CT). Sources: AP via WZTV/Fox17 and NewsChannel 9; NYT on X (2125285034433056884).
+"""BREAKING card: AP calls Tennessee's 4th District for Democrat Victoria Broderick over Rep. Scott DesJarlais (R)
+(Tue Nov 24, 2026, 11:12 a.m. CT). Sources: AP via WZTV/Fox17 and NewsChannel 9; NYT on X (2125285034433056884)
+and headline, including "largest majority in three decades" / "30 Years," attributed.
 Draft only. Whip illustration; schematic Tennessee outline, not to scale, not a real map or AP graphic.
 No Whip scores. No hook. No total House seat count."""
 import shutil, sys, subprocess
@@ -8,7 +9,7 @@ from pathlib import Path
 sys.path.insert(0, "/home/box/whip/threads/2026-11-14-faa")
 from v4base import wrap
 OUT = Path(__file__).resolve().parent
-NAME = "update-tn04-broderick"
+NAME = "breaking-tn04-broderick"
 FOLDER = "breaking/2026-11-24-tn04-broderick"
 W, H = 568, 300
 RED, YEL, BLU, PAPER, MUTE, INK = "#ff2d2a", "#ffcc00", "#3d8bff", "#f4f0e6", "#8a867c", "#09090b"
@@ -36,11 +37,11 @@ parts.append(f'<text x="0" y="{fy+96}" font-family="Inter" font-size="11.5" font
 graphic = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{"".join(parts)}</svg>'
 html = wrap(f"""
 <div class="footer"><span>Sources: AP via WZTV, NYT (Nov. 24, 2026). Illustration.</span><span>Whip illustration &middot; not an AP graphic or official map</span></div>
-<div class="tag"><span class="dot"></span>UPDATE &middot; ELECTIONS</div>
+<div class="tag"><span class="dot"></span>BREAKING &middot; ELECTIONS</div>
 <div class="left">
   <div class="h1">TN-04<br><span class="y">FLIPS BLUE</span></div>
   <div class="h2">BRODERICK UNSEATS<br>REP. DESJARLAIS</div>
-  <div class="att">AP called Tennessee&rsquo;s 4th Congressional District for Democrat Victoria Broderick at 11:12 a.m. CT Tuesday. The New York Times called it one of the biggest upsets of the midterms.</div>
+  <div class="att">AP called Tennessee&rsquo;s 4th Congressional District for Democrat Victoria Broderick at 11:12 a.m. CT Tuesday. The New York Times called it one of the biggest upsets of the midterms and said it gave Democrats their largest majority in three decades.</div>
   <div class="chips"><span>Affordability</span><span>Health care</span><span>Rural hospitals</span></div>
 </div>
 <div class="panel">
@@ -51,7 +52,7 @@ html = wrap(f"""
   <div class="wt">WHAT THIS<br><span class="y">MEANS</span></div>
   <div class="b"><div class="n">01</div><div><b>The flip:</b> Democrat Victoria Broderick defeated Republican incumbent Rep. Scott DesJarlais, per AP.</div></div>
   <div class="b"><div class="n">02</div><div><b>Her issues:</b> affordability, health care access, rural hospitals, housing and voluntary pre-K.</div></div>
-  <div class="b"><div class="n">03</div><div><b>The upset:</b> the New York Times called it one of the biggest upsets of the midterms.</div></div>
+  <div class="b"><div class="n">03</div><div><b>The upset:</b> the New York Times called it one of the midterms&rsquo; biggest upsets, giving Democrats their largest majority in three decades.</div></div>
 </div>
 """, """
 body{background:radial-gradient(ellipse at 70% 38%,#0b1f4a 0%,#0a1430 45%,#09090b 82%)}

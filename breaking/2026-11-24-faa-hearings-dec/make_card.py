@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
-"""UPDATE card: DOT Sec. Duffy and FAA Admin. Bedford to testify Dec. 1-2 on the Nov. 13 ground stop and ATC money
-(Tue Nov 24, 2026). Sources: Reuters (via AJOT/Forth), Politico live updates 12:49pm ET Nov 24.
+"""UPDATE card: DOT Sec. Duffy testifies Dec. 2; FAA Admin. Bedford faces a House hearing in early December
+(Tue Nov 24, 2026). Sources: Reuters via AJOT (Nov. 24) for Duffy Dec. 2; Rep. Rick Larsen/Carson statement
+(democrats-transportation.house.gov, Nov. 14) and Punchbowl (Nov. 16) for Bedford in early December.
+Card split: Punchbowl (Nov. 16) and Politico Weekly Transportation (Nov. 16). Dec. 1 not used: Politico
+live update could not be opened (403), and the House T&I calendar lists a Dec. 1 BNATCS hearing but
+does not name Bedford as a witness.
 Draft only. Whip illustration, not a screenshot. No Whip scores. No hook."""
 import shutil, sys, subprocess
 from pathlib import Path
@@ -28,7 +32,7 @@ def tower(x, y):
 
 parts = []
 parts.append(f'<text x="0" y="20" font-family="Archivo Black" font-size="14" letter-spacing="1.6" fill="{PAPER}">THE HEARINGS</text>')
-parts.append(f'<text x="0" y="40" font-family="Inter" font-size="13" font-weight="600" fill="{MUTE}">Schematic timeline. Source: Reuters, Politico</text>')
+parts.append(f'<text x="0" y="40" font-family="Inter" font-size="13" font-weight="600" fill="{MUTE}">Schematic timeline. Sources: Reuters, Punchbowl, Larsen</text>')
 parts.append(tower(4, 112))
 # timeline
 tx0, tx1, ty = 96, 562, 112
@@ -42,19 +46,19 @@ def node(x, date, chamber, who, lines, col):
     for i, ln in enumerate(lines):
         p.append(f'<text x="{x+3}" y="{ty+98+i*18}" font-family="Inter" font-size="11.8" font-weight="600" fill="#c8c4ba">{ln}</text>')
     return "".join(p)
-parts.append(node(108, "DEC. 1", "HOUSE", "FAA Admin. Bryan Bedford",
-                  ["Transportation &amp; Infrastructure", "Committee. Topic: $12.5B from", "last year&rsquo;s law for ATC equipment;", "ground-stop questions expected"], YEL))
+parts.append(node(108, "EARLY DEC.", "HOUSE", "FAA Admin. Bryan Bedford",
+                  ["Transportation &amp; Infrastructure", "Committee, early December,", "per Rep. Rick Larsen. Topics:", "prior ATC funds; ground stop"], YEL))
 parts.append(node(340, "DEC. 2", "SENATE", "Sec. Sean Duffy (DOT)",
                   ["Commerce aviation subcommittee.", "Topics: the Nov. 13 ground stop", "and his $50B request for ATC", "&amp; airport modernization"], RED))
 
 graphic = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{"".join(parts)}</svg>'
 html = wrap(f"""
-<div class="footer"><span>Sources: Reuters, Politico (Nov. 24, 2026). Illustration.</span><span>Whip illustration &middot; not an FAA or congressional graphic</span></div>
+<div class="footer"><span>Sources: Reuters (Nov. 24); Punchbowl and Politico (Nov. 16); Rep. Rick Larsen. Illustration.</span><span>Whip illustration &middot; not an FAA or congressional graphic</span></div>
 <div class="tag"><span class="dot"></span>UPDATE &middot; FAA GROUND STOP</div>
 <div class="left">
   <div class="h1">CONGRESS<br><span class="y">WANTS ANSWERS</span></div>
-  <div class="h2">DOT &amp; FAA CHIEFS TESTIFY DEC. 1&ndash;2</div>
-  <div class="att">After the Nov. 13 nationwide ground stop, Sec. Duffy raised his air traffic control and airport modernization request to $50 billion, up from $30 billion. Lawmakers from both parties say they need more answers before approving supplemental funding.</div>
+  <div class="h2">DOT &amp; FAA CHIEFS TESTIFY IN DECEMBER</div>
+  <div class="att">After the Nov. 13 nationwide ground stop, Sec. Duffy raised his air traffic control and airport modernization request to $50 billion, up from $30 billion. Democrats are skeptical and point to $12.5 billion already approved but mostly unspent, while Republicans seemed open, per Punchbowl and Politico (Nov. 16).</div>
 </div>
 <div class="panel">
   <div class="ph">ON THE HILL &middot; WHIP ILLUSTRATION</div>
@@ -63,7 +67,7 @@ html = wrap(f"""
 <div class="strip">
   <div class="wt">WHAT THIS<br><span class="y">MEANS</span></div>
   <div class="b"><div class="n">01</div><div><b>First answers:</b> Congress gets its first public answers on the Nov. 13 ground stop before deciding on new air traffic money.</div></div>
-  <div class="b"><div class="n">02</div><div><b>Both parties:</b> lawmakers say they need more answers before approving supplemental funding.</div></div>
+  <div class="b"><div class="n">02</div><div><b>The split:</b> Democrats are skeptical, citing $12.5B approved but mostly unspent; Republicans seemed open, per Punchbowl and Politico (Nov. 16).</div></div>
   <div class="b"><div class="n">03</div><div><b>The ask grew:</b> Duffy raised his request to $50B from $30B after the outage.</div></div>
 </div>
 """, """
