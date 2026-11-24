@@ -35,8 +35,8 @@ html = wrap(f"""
 <div class="footer"><span>Source: Rep. Hakeem Jeffries, official Nov. 17 Capitol news conference, posted by the Office of Democratic Leader Hakeem Jeffries (jeffries.house.gov; YouTube, “Leader Jeffries on House Democrats’ Priorities for the Next Congress”). Clip: 18:23–18:51 of that video.</span><span>Whip illustration</span></div>
 <div class="tag"><span class="dot"></span>CLIP &middot; MEDICARE</div>
 <div class="left">
-  <div class="h1">&ldquo;WE SHOULD<br>LOWER THE AGE<br>OF <span class="y">MEDICARE.</span>&rdquo;</div>
-  <div class="att">Rep. Hakeem Jeffries, Nov. 17 Capitol news conference. He also said coverage should include vision, hearing, and dental, “and we should cover all the kids in the United States of America.”</div>
+  <div class="h1">&ldquo;WE SHOULD<br>LOWER THE AGE<br>OF MEDICARE<br><span class="y">ELIGIBILITY.</span>&rdquo;</div>
+  <div class="att">Rep. Hakeem Jeffries, Nov. 17 Capitol news conference. He also said coverage should include vision, hearing, and dental, “And we should cover all the kids in the United States of America.”</div>
 </div>
 <div class="panel">
   {graphic}
@@ -52,7 +52,7 @@ body{background:radial-gradient(ellipse at 72% 40%,#2a1f05 0%,#120d04 45%,#09090
 .tag{position:absolute;top:76px;left:48px;display:flex;align-items:center;gap:10px;background:#ffcc00;color:#09090b;font-family:'Archivo Black',sans-serif;font-size:18px;letter-spacing:.18em;padding:7px 14px 6px;z-index:5}
 .dot{width:10px;height:10px;border-radius:50%;background:#ff2d2a}
 .left{position:absolute;left:48px;top:126px;width:500px;z-index:5}
-.h1{font-family:'Anton',sans-serif;font-size:58px;line-height:.95;color:#f4f0e6}
+.h1{font-family:'Anton',sans-serif;font-size:52px;line-height:.94;color:#f4f0e6}
 .att{font-family:'Inter',sans-serif;font-size:16px;line-height:1.35;color:#c8c4ba;margin-top:16px;width:470px}
 .y{color:#ffcc00}
 .panel{position:absolute;right:48px;top:118px;width:600px;z-index:5}
