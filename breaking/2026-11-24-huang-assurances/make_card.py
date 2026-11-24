@@ -16,7 +16,7 @@ parts.append(f'<text x="0" y="44" font-family="Inter" font-size="13" font-weight
 rows = [("NOV 23", "Board reinstates Huang", "Nvidia's board brings back its CEO (AP)", MUTE),
         ("NOV 24", "Assurances reported", "Officials told board: no criminal charges (ABC)", RED),
         ("DEC 3", "Senate hearing", "Huang testifies publicly to Senate Banking (AP)", BLU),
-        ("JAN", "Democrats take gavels", "Plan probes that include Trump's role (WaPo)", YEL)]
+        ("JAN", "Democrats take control", "Plan probes that include Trump's role (WaPo)", YEL)]
 y = 62
 for d, lab, note, col in rows:
     parts.append(f'<rect x="0" y="{y}" width="{W}" height="54" rx="4" fill="#15151b" stroke="{col}" stroke-width="{3 if col==RED else 1.5}"/>')
@@ -31,8 +31,8 @@ html = wrap(f"""
 <div class="tag"><span class="dot"></span>UPDATE &middot; NVIDIA</div>
 <div class="left">
   <div class="h1">NO CHARGES,<br><span class="y">OFFICIALS TOLD BOARD</span></div>
-  <div class="h2">REPORT: ASSURANCES CAME<br>BEFORE HUANG'S RETURN</div>
-  <div class="att">Top administration officials told Nvidia's board that CEO Jensen Huang was not facing criminal charges and was not seen as a national security risk, sources told ABC News.</div>
+  <div class="h2">REPORT: OFFICIALS VOUCHED<br>FOR HUANG TO NVIDIA'S BOARD</div>
+  <div class="att">Top administration officials told Nvidia's board that CEO Jensen Huang was not facing criminal charges and that they believed he was not a national security risk, sources told ABC News.</div>
 </div>
 <div class="panel">
   <div class="ph">THE TIMELINE &middot; WHIP ILLUSTRATION</div>
@@ -40,7 +40,7 @@ html = wrap(f"""
 </div>
 <div class="strip">
   <div class="wt">WHAT THIS<br><span class="y">MEANS</span></div>
-  <div class="b"><div class="n">01</div><div><b>New:</b> Officials gave the board two assurances: no criminal charges, no security risk (ABC; NYT first).</div></div>
+  <div class="b"><div class="n">01</div><div><b>New:</b> Officials gave the board two assurances: no criminal charges, and not a security risk, officials believed (ABC; NYT first).</div></div>
   <div class="b"><div class="n">02</div><div><b>Next:</b> Huang testifies publicly before the Senate Banking Committee on Dec. 3 (AP).</div></div>
   <div class="b"><div class="n">03</div><div><b>Congress:</b> Democrats plan probes in January that include Trump's role in his return (WaPo).</div></div>
 </div>
