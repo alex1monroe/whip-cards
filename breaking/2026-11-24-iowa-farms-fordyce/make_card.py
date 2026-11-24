@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""UPDATE card: USDA Under Secretary Richard Fordyce says approximately 350 farms
-could be impacted by a dust plume containing lead particles (Tue Nov 24, 2026).
-Sources: Brownfield Ag News (Brent Barnett, Nov. 24) for the Fordyce figure and
-USDA coordination with Iowa Ag Secretary Mike Naig and Missouri Ag Director
-Chris Chinn. Army plume-path forecast also from that Brownfield report.
+"""UPDATE card: Fordyce says approximately 350 farms could be impacted; Telle says
+the detonation will take place Wednesday at 9 a.m. (Tue Nov 24, 2026).
+Sources: Brownfield Ag News (Brent Barnett, Nov. 24) for Telle's 9 a.m. Wednesday
+time, the Fordyce figure, and USDA coordination with Iowa Ag Secretary Mike Naig
+and Missouri Ag Director Chris Chinn. Army plume-path forecast also from that report.
 Draft only. Whip illustration; schematic, not a real map or official graphic.
 No Whip scores. No hook. No CBS attribution."""
 import shutil, sys, subprocess
@@ -55,8 +55,8 @@ html = wrap(f"""
 <div class="tag"><span class="dot"></span>UPDATE &middot; IOWA BLAST</div>
 <div class="left">
   <div class="h1">FORDYCE:<br><span class="y">350 FARMS</span></div>
-  <div class="h2">&ldquo;APPROXIMATELY 350 FARMS<br>COULD BE IMPACTED&rdquo;</div>
-  <div class="att">USDA Under Secretary for Farm Production and Conservation Richard Fordyce says approximately 350 farms could be impacted by a dust plume containing lead particles, per Brownfield Ag News.</div>
+  <div class="h2">APPROXIMATELY 350 FARMS<br>COULD BE IMPACTED</div>
+  <div class="att">Acting Army Secretary Adam Telle says the detonation will take place Wednesday at 9 a.m. CT, per Brownfield. USDA Under Secretary for Farm Production and Conservation Richard Fordyce says approximately 350 farms could be impacted by a dust plume containing lead particles.</div>
 </div>
 <div class="panel">
   <div class="ph">THE PLUME &middot; WHIP ILLUSTRATION</div>
