@@ -1,0 +1,6 @@
+Card: daily three-circle, Nov 24, 2026. Thread: Your Thanksgiving flight. Draft only; not posted or scheduled.
+Circles: Record holiday flights / O'Hare ground stops / Duffy, Bedford to testify.
+Record flights: FAA release Nov 24 https://www.faa.gov/newsroom/trumps-transportation-department-announces-record-breaking-thanksgiving-air-travel-2026 (417,000+ flights Nov 23-Dec 1, busiest in 16 yrs, Tue Nov 24 peak 52,000+; Bedford quote on modernizing ATC). Also Axios Nov 24.
+O'Hare Tue: FOX 32 Chicago https://www.fox32chicago.com/news/equipment-outage-prompts-ground-stop-chicago-ohare-airport (3:06-4:02 pm CST, surface equipment outage); NBC Chicago https://www.nbcchicago.com/news/local/ground-stop-issued-at-ohare-international-airport-on-tuesday-afternoon/4021001/ . Mon: FAA statement via Chicago Sun-Times (staffing at Chicago TRACON), per breaking/2026-11-24-ohare-ground-stops.
+Hearings: Reuters (Shepardson) Nov 24 via Investing.com https://www.investing.com/news/general-news/us-transportation-secretary-to-testify-before-congress-on-air-traffic-outage-5048736 (Duffy Dec 2 Senate Commerce aviation subcmte, Nov 13 ground stop + $50B; Bedford House panel Dec 1); Senate Commerce release https://www.commerce.senate.gov/press/rep/release/preventing-the-next-ground-stop-modernizing-americas-air-traffic-control-system/
+No Whip scores.
