@@ -47,7 +47,7 @@ html = wrap(f"""
   <div class="wt">WHAT THIS<br><span class="y">MEANS</span></div>
   <div class="b"><div class="n">01</div><div><b>Tuesday:</b> flights from Minneapolis, Milwaukee, Green Bay and Des Moines held while technicians repaired radar.</div></div>
   <div class="b"><div class="n">02</div><div><b>Monday:</b> arrivals paused about 90 minutes over staffing at Chicago TRACON, the FAA said.</div></div>
-  <div class="b"><div class="n">03</div><div><b>Context:</b> it comes 11 days after the Nov. 13 nationwide ground stop, ahead of December hearings.</div></div>
+  <div class="b"><div class="n">03</div><div><b>Context:</b> it comes 11 days after the Nov. 13 nationwide ground stop.</div></div>
 </div>
 """, """
 body{background:radial-gradient(ellipse at 70% 38%,#3a2a05 0%,#22180a 45%,#09090b 82%)}
