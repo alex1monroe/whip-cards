@@ -13,8 +13,8 @@ W, H = 568, 300
 RED, YEL, PAPER, MUTE = "#ff2d2a", "#ffcc00", "#f4f0e6", "#8a867c"
 parts = []
 parts.append(f'<text x="0" y="20" font-family="Archivo Black" font-size="14" letter-spacing="1.6" fill="{PAPER}">FEDERAL CYBER INCIDENTS IN THE NEWS</text>')
-parts.append(f'<text x="0" y="40" font-family="Inter" font-size="13" font-weight="600" fill="{MUTE}">Recent reported incidents, per AP and other outlets. Illustration.</text>')
-boxes = [("USDA", "Reported incident", "Agriculture Dept.", False), ("FBI", "NCIC breach", "Crime-records system", False), ("CIA", "Unclassified system", "Open-source intel", True)]
+parts.append(f'<text x="0" y="40" font-family="Inter" font-size="13" font-weight="600" fill="{MUTE}">Recent reported incidents, per Reuters. Illustration.</text>')
+boxes = [("USDA", "Reported incident", "Agriculture Dept.", False), ("FBI", "Reported NCIC breach", "Crime-records system", False), ("CIA", "Unclassified system", "Open-source intel", True)]
 for i, (ag, l1, l2, hot) in enumerate(boxes):
     x = i * 190
     col = RED if hot else "#2a2a32"
@@ -27,7 +27,7 @@ for i, (ag, l1, l2, hot) in enumerate(boxes):
     parts.append(f'<text x="{cx}" y="168" text-anchor="middle" font-family="Anton" font-size="28" fill="{PAPER}">{ag}</text>')
     parts.append(f'<text x="{cx}" y="188" text-anchor="middle" font-family="Archivo Black" font-size="11.5" fill="{YEL if hot else PAPER}">{l1.upper()}</text>')
     parts.append(f'<text x="{cx}" y="204" text-anchor="middle" font-family="Inter" font-size="11.5" font-weight="600" fill="#c8c4ba">{l2}</text>')
-parts.append(f'<text x="380" y="236" font-family="Archivo Black" font-size="12" fill="{YEL}">NEW &middot; REPORTED NOV. 24</text>')
+parts.append(f'<text x="468" y="236" text-anchor="middle" font-family="Archivo Black" font-size="12" fill="{YEL}">NEW</text>')
 parts.append(f'<text x="0" y="266" font-family="Inter" font-size="12.5" font-weight="600" fill="#c8c4ba">ODNI: &ldquo;no disruptions to critical capabilities or classified systems.&rdquo;</text>')
 parts.append(f'<text x="0" y="286" font-family="Inter" font-size="11.5" font-weight="600" fill="{MUTE}">Who was responsible is not yet known.</text>')
 graphic = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{"".join(parts)}</svg>'
@@ -41,14 +41,14 @@ html = wrap(f"""
   <div class="chips"><span>No classified data</span><span>Attacker unknown</span></div>
 </div>
 <div class="panel">
-  <div class="ph">THE PATTERN &middot; WHIP ILLUSTRATION</div>
+  <div class="ph">RECENT INCIDENTS &middot; WHIP ILLUSTRATION</div>
   {graphic}
 </div>
 <div class="strip">
   <div class="wt">WHAT THIS<br><span class="y">MEANS</span></div>
   <div class="b"><div class="n">01</div><div><b>What was hit:</b> a system for publicly available data from the internet and commercial databases, per AP.</div></div>
   <div class="b"><div class="n">02</div><div><b>What wasn&rsquo;t:</b> ODNI says no critical capabilities or classified systems were disrupted.</div></div>
-  <div class="b"><div class="n">03</div><div><b>Still unknown:</b> who did it, and what data was taken. Other agencies&rsquo; data may be exposed, per NYT.</div></div>
+  <div class="b"><div class="n">03</div><div><b>Still unknown:</b> who did it, and what data was compromised. Other agencies&rsquo; data was also believed exposed, per NYT.</div></div>
 </div>
 """, """
 body{background:radial-gradient(ellipse at 70% 38%,#4a0b14 0%,#300a12 45%,#09090b 82%)}
