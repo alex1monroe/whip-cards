@@ -17,7 +17,7 @@ html = wrap(svg + """
 <div class="left">
   <div class="h1">YOUR<br><span class="y">THANKSGIVING FLIGHT.</span></div>
   <div class="it"><div class="n r">01</div><div><b>Record holiday flights</b><br>The FAA forecasts 417,000+ flights Nov. 23 to Dec. 1, the busiest Thanksgiving in 16 years. Tuesday is the peak, at 52,000+.</div></div>
-  <div class="it"><div class="n y">02</div><div><b>O&rsquo;Hare ground stops</b><br>The FAA paused O&rsquo;Hare arrivals Tuesday over a surface radar outage, a day after a stop over staffing at Chicago TRACON.</div></div>
+  <div class="it"><div class="n y">02</div><div><b>O&rsquo;Hare ground stops</b><br>The FAA held some O&rsquo;Hare-bound flights Tuesday over a surface radar outage, a day after a stop over staffing at Chicago TRACON.</div></div>
   <div class="it"><div class="n bl">03</div><div><b>Duffy, Bedford to testify</b><br>Sec. Duffy faces a Senate panel Dec. 2 on the Nov. 13 nationwide ground stop and his $50B air traffic control request. FAA chief Bedford goes before a House panel Dec. 1.</div></div>
 </div>
 <div class="lab la" style="left:640px;top:200px"><span class="r">RECORD<br>HOLIDAY FLIGHTS</span></div>
