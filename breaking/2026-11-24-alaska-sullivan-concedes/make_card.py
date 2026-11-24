@@ -23,7 +23,7 @@ for name, pct, col in rows:
     y += 30
 parts.append(f'<text x="0" y="{y+8}" font-family="Inter" font-size="11.5" font-weight="600" fill="{MUTE}">Outright majority, no ranked-choice tabulation. Source: Alaska Div. of Elections via ADN.</text>')
 ty = y + 40
-steps = [("NOV 3", "Election Day"), ("NOV 18", "Last ballots counted"), ("NOV 19", "DOJ drops suit"), ("NOV 23", "State certifies"), ("NOV 24", "Concession")]
+steps = [("NOV 3", "Election Day"), ("NOV 18", "Last ballots counted"), ("NOV 19", "DOJ drops appeal"), ("NOV 23", "State certifies"), ("NOV 24", "Concession")]
 parts.append(f'<line x1="10" y1="{ty}" x2="550" y2="{ty}" stroke="#4a4a54" stroke-width="3"/>')
 for i, (d, lab) in enumerate(steps):
     x = 10 + i * 135
