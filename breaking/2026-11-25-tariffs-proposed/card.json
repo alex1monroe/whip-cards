@@ -1,5 +1,5 @@
 {
-  "output": "card-v2.png",
+  "output": "card-v3.png",
   "kicker": "UPDATE · TARIFFS & TRADE",
   "headline": "NEW TARIFFS PROPOSED",
   "headline_accent": "CHINA FACES +20%",
@@ -41,6 +41,6 @@
     }
   ],
   "date": "Nov. 25, 2026",
-  "sources": "Sources: AP, Nov. 25; Reuters via Investing.com, Nov. 25; BBC, Nov. 25; WSJ, Nov. 24; Federal Register 2026-05214.",
+  "sources": "Sources: AP, Nov. 25; Reuters via Investing.com, Nov. 25; BBC, Nov. 25; MOFCOM, July 28; Federal Register 2026-05214.",
   "footer_right": "Whip illustration"
 }

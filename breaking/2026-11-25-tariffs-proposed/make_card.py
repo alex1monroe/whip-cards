@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""UPDATE card v2 (TALL v4): USTR proposes Section 301 tariffs on 14 partners, +20% China.
-Fixes: other side (China July paper), Federal Register moved into point 01, 14 partners attributed to Reuters.
-Sources: AP, Reuters, BBC Nov 25; WSJ Nov 24; Federal Register 2026-05214. No Whip scores."""
+"""UPDATE card v3 (TALL v4): USTR proposes Section 301 tariffs on 14 partners, +20% China.
+v3: footer source is MOFCOM, July 28 (not WSJ, Nov. 24). Tweet text unchanged from v2.
+Sources: AP, Reuters, BBC Nov 25; MOFCOM July 28; Federal Register 2026-05214. No Whip scores."""
 import shutil
 import subprocess
 import sys
@@ -21,11 +21,10 @@ def main() -> None:
     dest = Path(f"/workspace/whip-cards/{FOLDER}")
     dest.mkdir(parents=True, exist_ok=True)
     for name in (
-        "card-v2.png",
+        "card-v3.png",
         "card.json",
         "make_card.py",
-        "tweet-v2.txt",
-        "alt-v2.txt",
+        "alt-v3.txt",
     ):
         f = OUT / name if name != "make_card.py" else Path(__file__).resolve()
         if f.exists():
