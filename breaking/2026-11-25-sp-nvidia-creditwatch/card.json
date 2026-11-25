@@ -1,0 +1,89 @@
+{
+  "output": "card.png",
+  "kicker": "UPDATE · GOVERNMENT ETHICS",
+  "headline": "S&P PUTS NVIDIA ON",
+  "headline_accent": "DOWNGRADE WATCH",
+  "dek": "The ratings agency says Jensen Huang’s departure and reinstatement don’t answer its questions about how Nvidia’s board oversees its CEO.",
+  "graphic": {
+    "type": "watch",
+    "ladder_title": "S&P RATING SCALE (TOP)",
+    "ladder": [
+      {
+        "grade": "AAA",
+        "note": "highest"
+      },
+      {
+        "grade": "AA+",
+        "note": ""
+      },
+      {
+        "grade": "AA",
+        "note": "NVIDIA TODAY · now on CreditWatch Negative",
+        "kind": "now"
+      },
+      {
+        "grade": "AA−",
+        "note": "POSSIBLE · S&P expects any cut limited to one notch",
+        "kind": "maybe"
+      }
+    ],
+    "ladder_note": "Bigger cut possible only if investigations or disclosures hurt Nvidia’s reputation or business, S&P says.",
+    "flags_title": "WHAT S&P FLAGGED",
+    "flags": [
+      {
+        "title": "BOARD OVERSIGHT",
+        "text": "The CEO’s “departure, then reinstatement … does not sufficiently answer our questions regarding board oversight of executive code of conduct.”"
+      },
+      {
+        "title": "BOARD INDEPENDENCE",
+        "text": "“The long tenure of certain board members may have compromised their independence.”"
+      },
+      {
+        "title": "SUCCESSION",
+        "text": "“Weak executive oversight and lack of succession planning” put “key man” risk up front. Huang told staff Tuesday Nvidia doesn’t need a succession plan, per CNBC."
+      },
+      {
+        "title": "CHINA & EXPORTS",
+        "text": "China exposure raises questions on “geopolitical risk management and internal controls.”"
+      }
+    ],
+    "steps_title": "WHAT HAPPENS NEXT",
+    "steps": [
+      {
+        "date": "NOV. 25",
+        "kind": "acc",
+        "text": "S&P places Nvidia on CreditWatch Negative"
+      },
+      {
+        "date": "NEXT",
+        "text": "S&P plans to meet Nvidia’s board and management"
+      },
+      {
+        "date": "DEC. 1–3",
+        "text": "Huang due before House panels and Senate Banking"
+      },
+      {
+        "date": "≤90 DAYS",
+        "kind": "up",
+        "text": "S&P decides whether to downgrade"
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "Not a downgrade yet:",
+      "text": "Nvidia keeps its AA rating for now. S&P says the company’s competitive position, technology lead and financial profile are “unchanged at this time.”"
+    },
+    {
+      "label": "Nvidia’s side:",
+      "text": "On Nov. 17 the board created a National Security and Export Control Oversight Committee. S&P says it’s unaware of any board remedy for the governance gaps it flagged."
+    },
+    {
+      "label": "Not cited:",
+      "text": "S&P’s note doesn’t mention the administration’s role in Huang’s return. It points to the CEO news and export-control questions."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: S&P Global Ratings research update, Nov. 25, 2026; Reuters, Nov. 25; CNBC, Nov. 24; Nvidia press release, Nov. 17; NBC News, Nov. 24. Rating scale shown is S&P’s top four long-term grades.",
+  "footer_right": "Whip illustration"
+}
