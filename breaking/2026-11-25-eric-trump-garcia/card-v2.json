@@ -1,0 +1,62 @@
+{
+  "output": "card-v2.png",
+  "kicker": "NEW · GOVERNMENT ETHICS",
+  "headline": "GARCIA ASKS ERIC TRUMP",
+  "headline_accent": "TO TESTIFY UNDER OATH",
+  "dek": "The top Democrat on House Oversight listed Eric Trump’s business ties on X. Eric Trump calls Garcia’s TV remarks “untrue and libelous.”",
+  "graphic": {
+    "type": "ties",
+    "title": "THE TIES GARCIA LISTED · WHAT THE RECORD SHOWS",
+    "rows": [
+      {
+        "co": "DOMINARI HOLDINGS",
+        "tie": "ADVISER",
+        "text": "Joined its board of advisors in Feb. 2025, the company said. Dominari says advisers have no voting rights or legal authority."
+      },
+      {
+        "co": "METAPLANET",
+        "tie": "ADVISER",
+        "text": "Named to the Japanese bitcoin firm’s strategic board of advisors in March 2025."
+      },
+      {
+        "co": "SPACE-EYES",
+        "tie": "STAKE",
+        "text": "A 6% stake held by his LLC, for advice and introductions through his “network of contacts,” SEC filings show. The firm does drone-defense work."
+      },
+      {
+        "co": "XTEND",
+        "tie": "INVESTOR",
+        "text": "Invested in the Israeli drone maker’s deal to go public, announced Feb. 2026, Reuters reported."
+      },
+      {
+        "co": "FOUNDATION",
+        "tie": "INVESTOR · ADVISER",
+        "text": "Garcia cites a $24 million Pentagon contract. CNBC reports Foundation didn’t win it directly; it came with a robotics firm Foundation bought in 2024.",
+        "flag": true
+      }
+    ],
+    "left_title": "GARCIA SAYS",
+    "left": "“If you want to fully explain to the American people how this isn’t some big misunderstanding, come testify under oath voluntarily. January is right around the corner.”",
+    "left_meta": "@RepRobertGarcia · Nov. 23",
+    "right_title": "ERIC TRUMP SAYS",
+    "right": "Garcia’s TV statement was “untrue and libelous.” He sits on “ZERO” boards of directors, has “NEVER” worked on procuring a government contract, and his advisory groups have “ZERO decision-making power.”",
+    "right_meta": "@EricTrump · Nov. 23–24"
+  },
+  "means": [
+    {
+      "label": "A request, not a subpoena:",
+      "text": "Garcia asked on X for voluntary testimony. He is expected to chair Oversight when Democrats take the House in January."
+    },
+    {
+      "label": "Different rules:",
+      "text": "A president’s relatives with no government job aren’t covered by federal ethics and disclosure rules for officials."
+    },
+    {
+      "label": "Related, separate:",
+      "text": "Rep. Jamie Raskin is probing Donald Trump Jr.’s venture firm, 1789 Capital."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: @RepRobertGarcia posts, Nov. 22–23; @EricTrump posts, Nov. 23–24; Newsweek, Nov. 24; WSJ, Aug. 27; CNBC, Nov. 14; Reuters, Feb. 17; Dominari release, Feb. 11, 2025; Metaplanet via Reuters, Mar. 21, 2025; Space-Eyes SEC filing; AP.",
+  "footer_right": "Whip illustration"
+}
