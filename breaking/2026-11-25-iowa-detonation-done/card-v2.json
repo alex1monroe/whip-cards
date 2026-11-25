@@ -1,0 +1,50 @@
+{
+  "output": "card-v2.png",
+  "kicker": "UPDATE \u00b7 IOWA DETONATION",
+  "headline": "ARMY DETONATES",
+  "headline_accent": "IOWA LEAD AZIDE",
+  "dek": "The nation's entire stockpile, about 5 tons, was blown up Wednesday morning at the Iowa Army Ammunition Plant in Middletown, AP reports.",
+  "graphic": {
+    "type": "timeline",
+    "title": "HOW WE GOT HERE",
+    "nodes": [
+      {
+        "date": "NOV. 23",
+        "text": "The 8th Circuit denies environmental groups' emergency stay and lifts its pause on the EPA permit.",
+        "dot": "blue"
+      },
+      {
+        "date": "NOV. 24",
+        "text": "Gov. Reynolds declares a disaster emergency in Des Moines, Lee and Van Buren counties. A FEMA alert tells people 5 to 20 miles away to stay indoors.",
+        "dot": "yellow"
+      },
+      {
+        "date": "NOV. 25",
+        "text": "The Army detonates the degraded lead azide. A plume is observed.",
+        "dot": "red",
+        "accent": true
+      },
+      {
+        "date": "NEXT",
+        "text": "The EPA keeps testing air, soil and water. Evacuated residents get a call when it's all clear, the Army said."
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "Why now:",
+      "text": "Officials said the degraded material risked exploding on its own as temperatures dropped."
+    },
+    {
+      "label": "Before the blast:",
+      "text": "The EPA said it collected more than 1,200 samples and detected no lead in the air."
+    },
+    {
+      "label": "The concerns:",
+      "text": "Environmentalists raised possible health and environmental effects from lead dust."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: AP, Nov. 25 (story and live updates); EPA; U.S. Army; 8th Circuit order, Nov. 23; Iowa governor's office and WQAD, Nov. 24.",
+  "footer_right": "Whip illustration"
+}
