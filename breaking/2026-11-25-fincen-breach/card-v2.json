@@ -1,0 +1,54 @@
+{
+  "output": "card-v2.png",
+  "kicker": "UPDATE · FEDERAL CYBER",
+  "headline": "TREASURY FINANCIAL-CRIMES BUREAU",
+  "headline_accent": "BREACHED",
+  "dek": "FinCEN, Treasury’s Financial Crimes Enforcement Network, says there was unauthorized access to a limited subset of its systems. It took some systems offline; the BSA E-Filing site remains operational.",
+  "graphic": {
+    "type": "tiles",
+    "title": "FEDERAL SYSTEMS HIT · RECENTLY REPORTED",
+    "items": [
+      {
+        "name": "FINCEN",
+        "label": "Treasury financial-crimes bureau",
+        "text": "Limited subset of systems accessed. Some systems taken offline.",
+        "date": "DISCLOSED NOV. 24",
+        "new": true
+      },
+      {
+        "name": "CIA / ODNI",
+        "label": "Unclassified intel-analysis system",
+        "text": "Resolved, a person familiar said. Classified systems unaffected."
+      },
+      {
+        "name": "FBI NCIC",
+        "label": "National Crime Information Center",
+        "text": "Intrusion reported in FBI crime-records system."
+      },
+      {
+        "name": "USDA",
+        "label": "Agriculture Dept. applications",
+        "text": "Taken offline, disrupting tools that support payments to farmers."
+      }
+    ],
+    "callout": "Officials have not publicly linked these to FinCEN’s incident.",
+    "note": "Other incidents as reported by Nextgov/FCW. Whip illustration."
+  },
+  "means": [
+    {
+      "label": "Bank deadlines:",
+      "text": "Institutions using FinCEN’s automated filing channel as of Nov. 18 now have until Dec. 30 for reports due Nov. 18 to Dec. 29."
+    },
+    {
+      "label": "Still unknown:",
+      "text": "FinCEN hasn’t said what data was accessed or who was responsible. It collects banks’ confidential suspicious activity reports."
+    },
+    {
+      "label": "Not linked:",
+      "text": "Officials have not publicly tied FinCEN’s incident to the CIA/ODNI, FBI or USDA intrusions."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: FinCEN notice; ABC News; Nextgov/FCW; The Verge.",
+  "footer_right": "Whip illustration"
+}

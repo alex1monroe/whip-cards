@@ -2,17 +2,27 @@
 """UPDATE card (TALL v4, tiles): FinCEN discloses cybersecurity incident (Nov. 24, 2026).
 Running story with the Nov. 24 CIA/ODNI breach card (same maroon background, shield tiles, red NEW tile).
 Uses /home/box/whip/templates/make_card_tall_v4.py unchanged, adding a "tiles" graphic type locally.
-Sources: FinCEN notice; ABC News, Nov. 25; Nextgov/FCW; The Verge. No Whip scores. No commentators."""
+Sources: FinCEN notice; ABC News, Nov. 25; Nextgov/FCW; The Verge. No Whip scores. No commentators.
+
+Usage:
+    python3 make_card.py              # renders card.json -> card.png
+    python3 make_card.py card-v2.json # renders card-v2.json -> card-v2.png
+Does not post or schedule. v1 files are left in place when rendering v2.
+"""
 import html
 import importlib.util
 import json
 import shutil
+import sys
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent
 TEMPLATE = Path("/home/box/whip/templates/make_card_tall_v4.py")
 FOLDER = "breaking/2026-11-25-fincen-breach"
-FILES = ("card.png", "card.json", "make_card.py", "alt.txt")
+FILES = (
+    "card.png", "card.json", "make_card.py", "alt.txt",
+    "card-v2.png", "card-v2.json", "alt-v2.txt", "tweet-v2.txt",
+)
 
 spec = importlib.util.spec_from_file_location("tall_v4", TEMPLATE)
 T = importlib.util.module_from_spec(spec)
@@ -65,7 +75,8 @@ def render_graphic(g):
 T.render_graphic = render_graphic
 
 def main() -> None:
-    data = json.loads((OUT / "card.json").read_text())
+    json_name = sys.argv[1] if len(sys.argv) > 1 else "card.json"
+    data = json.loads((OUT / json_name).read_text())
     h = T.build_html(data).replace("</style>", TILES_CSS + "</style>", 1)
     png = T.render_png(h, OUT / data.get("output", "card.png"))
     print(png, png.stat().st_size)
