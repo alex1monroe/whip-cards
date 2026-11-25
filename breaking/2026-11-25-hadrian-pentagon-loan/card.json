@@ -1,0 +1,51 @@
+{
+  "output": "card.png",
+  "kicker": "BREAKING · CORRUPTION & ETHICS",
+  "headline": "PENTAGON WEIGHS LOAN",
+  "headline_accent": "TO TRUMP JR.-LINKED STARTUP",
+  "dek": "ProPublica reports a loan of up to $15 billion is under discussion for Hadrian Automation. The Pentagon disputes the figure.",
+  "graphic": {
+    "type": "timeline",
+    "title": "HOW WE GOT HERE",
+    "nodes": [
+      {
+        "date": "NOV. 2024",
+        "text": "Donald Trump Jr. joins venture firm 1789 Capital as a partner after his father's election.",
+        "dot": "blue"
+      },
+      {
+        "date": "2025",
+        "text": "1789 Capital invests in Hadrian, an AI-and-robotics defense manufacturer.",
+        "dot": "yellow"
+      },
+      {
+        "date": "SUMMER 2026",
+        "text": "Hadrian raises $1.37 billion with “major participation by 1789 Capital.”",
+        "dot": "yellow"
+      },
+      {
+        "date": "NOV. 24",
+        "text": "ProPublica: Pentagon weighs a loan to build a dozen automated factories, almost twice the company's value.",
+        "dot": "red",
+        "accent": true
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "The Pentagon:",
+      "text": "Talks are in “early stages.” “Outside affiliations, investors, or political connections play absolutely no role.”"
+    },
+    {
+      "label": "1789 Capital:",
+      "text": "Holds a “minority stake” and does not get involved in government contracts its companies seek."
+    },
+    {
+      "label": "The concerns:",
+      "text": "Former defense officials told ProPublica the deal could strain rules meant to protect taxpayer money."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: ProPublica, Nov. 24; Hadrian Series D announcement (PR Newswire); Pentagon and 1789 Capital statements via ProPublica.",
+  "footer_right": "Whip illustration"
+}
