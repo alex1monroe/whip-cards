@@ -1,0 +1,80 @@
+{
+  "output": "card.png",
+  "kicker": "UPDATE · GOVERNMENT ETHICS",
+  "headline": "SCHUMER: HUANG BROKE",
+  "headline_accent": "EXPORT LAW",
+  "dek": "The Senate Democratic leader accused Nvidia’s reinstated CEO of shipping advanced chips to China. Administration officials say they’ve seen no evidence of a crime.",
+  "graphic": {
+    "type": "does_doesnt",
+    "title": "THE ACCUSATION VS. THE RESPONSES",
+    "does": {
+      "head": "THE ACCUSATION",
+      "items": [
+        {
+          "title": "SCHUMER · NOV. 24",
+          "text": "Huang “shipped extremely advanced chips to China, violating US export control law … the equivalent of selling rocket engines to the Soviets during the Space Race.”"
+        },
+        {
+          "title": "HIS ASK",
+          "text": "Pass the bipartisan export-control bills to “cut off the flow of AI chips and manufacturing equipment to China.”"
+        }
+      ]
+    },
+    "doesnt": {
+      "head": "THE RESPONSES",
+      "items": [
+        {
+          "title": "VANCE · NOV. 25",
+          "text": "The accusations “were based on anonymous reporting, not on actual evidence.” He said he was told Huang is under no investigation."
+        },
+        {
+          "title": "AG BLANCHE",
+          "text": "Concluded there was no evidence Huang broke any laws, based on probes of two Nvidia customers, Reuters reports."
+        },
+        {
+          "title": "NVIDIA",
+          "text": "A spokesman said all its shipments were legal and government-authorized (Nov. 19). It didn’t immediately comment on Schumer."
+        }
+      ]
+    },
+    "steps_title": "HOW WE GOT HERE",
+    "steps": [
+      {
+        "date": "NOV. 23",
+        "kind": "red",
+        "text": "Nvidia’s board reinstates Huang"
+      },
+      {
+        "date": "NOV. 24",
+        "text": "Schumer posts the accusation on X"
+      },
+      {
+        "date": "NOV. 25",
+        "kind": "acc",
+        "text": "Vance: he’s seen no evidence of a crime"
+      },
+      {
+        "date": "DEC. 1–3",
+        "kind": "up",
+        "text": "Huang due before House panels and Senate Banking"
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "Megaspeed probe:",
+      "text": "The Justice and Commerce Departments said Megaspeed, the firm at the center of the case, is under criminal investigation for possible chip smuggling, the NYT reported."
+    },
+    {
+      "label": "Both parties:",
+      "text": "GOP Sen. Tom Cotton also says Congress will pass chip export-control bills, including his Chip Security Act."
+    },
+    {
+      "label": "Next:",
+      "text": "Lawmakers can question Huang directly next week."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: Sen. Chuck Schumer on X, Nov. 24, 2026; CNBC (Vance remarks), Nov. 25; Reuters via CNBC; The New York Times via The Business Times, Nov. 19; The Guardian, Nov. 24; Reuters via The Independent.",
+  "footer_right": "Whip illustration"
+}

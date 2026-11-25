@@ -1,0 +1,83 @@
+{
+  "output": "card.png",
+  "kicker": "BREAKING · COURTS",
+  "headline": "2ND JUDGE BLOCKS",
+  "headline_accent": "NEW BIRTHRIGHT ORDER",
+  "dek": "U.S. District Judge Christopher Cooper in Washington, D.C., blocked Trump’s August executive order: “the President cannot carve out new exceptions to birthright citizenship.”",
+  "graphic": {
+    "type": "does_doesnt",
+    "title": "WHO IS NOT A CITIZEN AT BIRTH?",
+    "does": {
+      "head": "SUPREME COURT’S 3",
+      "items": [
+        {
+          "title": "DIPLOMATS’ CHILDREN",
+          "text": "Children of foreign officials with full diplomatic immunity."
+        },
+        {
+          "title": "HOSTILE OCCUPIERS",
+          "text": "Children of enemy forces in hostile occupation of U.S. territory."
+        },
+        {
+          "title": "FOREIGN PUBLIC SHIPS",
+          "text": "Children born aboard foreign public ships."
+        }
+      ]
+    },
+    "doesnt": {
+      "head": "ORDER ADDED · BLOCKED",
+      "items": [
+        {
+          "title": "INTERNATIONAL WORKERS",
+          "text": "Parents who work for foreign governments or international organizations without diplomatic immunity."
+        },
+        {
+          "title": "SURROGACY, BIRTH TOURISM",
+          "text": "Births tied to a “commercial transaction” for citizenship."
+        },
+        {
+          "title": "“ALIEN ENEMY” PARENTS",
+          "text": "A parent the order labels an “alien enemy,” e.g. a designated terrorist-group member."
+        }
+      ]
+    },
+    "steps_title": "HOW WE GOT HERE · 2026",
+    "steps": [
+      {
+        "date": "JUNE 30",
+        "kind": "red",
+        "text": "Supreme Court, 6–3, strikes Trump’s first order (Trump v. Barbara)"
+      },
+      {
+        "date": "AUG. 6",
+        "text": "Trump signs a second order, EO 14418"
+      },
+      {
+        "date": "SEPT. 2",
+        "text": "Judge Deborah Boardman (Md.) blocks it for a certified class"
+      },
+      {
+        "date": "NOV. 25",
+        "kind": "acc",
+        "text": "Judge Cooper (D.C.) blocks it for a new class of children"
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "Who’s covered:",
+      "text": "Cooper certified a class of children “who are or will be unlawfully denied citizenship under the Order” and barred enforcement against them while the case continues."
+    },
+    {
+      "label": "The administration:",
+      "text": "The White House has said the order is consistent with the Supreme Court’s ruling. The government asked Cooper to pause any ruling pending appeal; he denied it."
+    },
+    {
+      "label": "Two courts:",
+      "text": "Both rulings are preliminary. The D.C. case, Nathan v. Trump, was brought by the ACLU and allied groups."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: Nathan v. Trump, No. 26-cv-3377 (D.D.C.), mem. op., Nov. 25, 2026; MS NOW; The Hill; ABC News; Bloomberg Law; ACLU; CBS News and Reuters (Sept. 2 ruling, White House statement); Trump v. Barbara (June 30, 2026).",
+  "footer_right": "Whip illustration"
+}
