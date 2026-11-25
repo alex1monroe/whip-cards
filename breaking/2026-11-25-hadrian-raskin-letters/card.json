@@ -1,0 +1,50 @@
+{
+  "output": "card.png",
+  "kicker": "UPDATE · HADRIAN / 1789 CAPITAL",
+  "headline": "RASKIN WIDENS",
+  "headline_accent": "1789 CAPITAL PROBE",
+  "dek": "Nov. 23 letters ask Hadrian, Juul, Polymarket and GrabAGun for records due Dec. 7, AP reports.",
+  "graphic": {
+    "type": "timeline",
+    "title": "HOW WE GOT HERE",
+    "nodes": [
+      {
+        "date": "JULY 2025",
+        "text": "1789 Capital invests in Hadrian, an AI-and-robotics defense manufacturer.",
+        "dot": "blue"
+      },
+      {
+        "date": "AUG. 2026",
+        "text": "Rep. Jamie Raskin, the ranking Democrat on House Judiciary, opens a probe of 1789 Capital.",
+        "dot": "yellow"
+      },
+      {
+        "date": "NOV. 23",
+        "text": "Raskin sends letters to Hadrian, Juul, Polymarket and GrabAGun seeking records tied to 1789 Capital.",
+        "dot": "red",
+        "accent": true
+      },
+      {
+        "date": "DEC. 7",
+        "text": "Records are due by 5 p.m., the letters say."
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "The letters:",
+      "text": "They seek communications with 1789 Capital, plus investment agreements, valuations and due-diligence files."
+    },
+    {
+      "label": "1789 Capital:",
+      "text": "Attorney Bill Burck told Fox Business, “These are personal attacks untethered to actual evidence.”"
+    },
+    {
+      "label": "The probe:",
+      "text": "Raskin is examining whether the firm helped steer federal contracts or regulatory decisions, or used advance knowledge of them, House Judiciary Democrats said."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: AP; House Judiciary Democrats letters, Nov. 23; Fox Business.",
+  "footer_right": "Whip illustration"
+}
