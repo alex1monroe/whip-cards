@@ -1,0 +1,28 @@
+{
+  "output": "card-v2.png",
+  "kicker": "UPDATE · GOVERNMENT ETHICS",
+  "headline": "VANCE:",
+  "headline_accent": "NO PARDON NEEDED",
+  "dek": "After serving Thanksgiving lunch to service members in Ohio, the vice president said he was told Huang “was under no investigation.”",
+  "graphic": {
+    "type": "timeline_new",
+    "title": "HOW WE GOT HERE",
+    "nodes": [
+      {"date": "NOV. 12", "dot": "red", "text": "Jensen Huang resigns as Nvidia CEO, Reuters reports."},
+      {"date": "NOV. 21–22", "dot": "blue", "text": "AG Todd Blanche tells Trump and Vance he has no evidence Huang posed a national-security risk, per Reuters."},
+      {"date": "NOV. 23", "dot": "green", "text": "Nvidia’s board reinstates Huang. Trump on CNBC: he spoke with the board and “convinced them.”"},
+      {"date": "NOV. 24", "dot": "blue", "text": "Trump tells the Post a Huang pardon is “always an option.”"},
+      {"date": "NOV. 25", "dot": "blue", "text": "CBS News reports Trump’s Nvidia holdings and trades from his disclosures."},
+      {"date": "NOV. 25", "new": true, "text": "Vance: “I don’t think he’d need the pardon at all.” “I haven’t seen any evidence that he committed a crime.”"},
+      {"date": "NEXT WEEK", "upcoming": true, "text": "Huang is due to testify, Reuters reports."}
+    ]
+  },
+  "means": [
+    {"label": "No formal probe:", "text": "Reuters reports the Justice Department did not formally investigate Huang before his reinstatement. Blanche’s conclusion rests on DOJ probes of two Nvidia customers, Super Micro Computer and Megaspeed International, and could change as they continue, people familiar said."},
+    {"label": "Congress:", "text": "Members of both parties say it’s too soon to set aside national-security questions, Reuters reports."},
+    {"label": "Next:", "text": "Huang is due to testify next week."}
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: New York Post; Fox News video; Reuters; CNBC; CBS News.",
+  "footer_right": "Whip illustration"
+}
