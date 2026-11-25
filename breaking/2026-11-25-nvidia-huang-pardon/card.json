@@ -19,12 +19,6 @@
         "dot": "green"
       },
       {
-        "date": "NOV. 23",
-        "text": "Shapiro: the White House’s intervention is a “political nuclear bomb.”",
-        "icon": "post",
-        "dot": "blue"
-      },
-      {
         "date": "NOV. 24",
         "text": "Trump tells the Post a Huang pardon is “always an option.”",
         "dot": "yellow"
@@ -55,6 +49,6 @@
     }
   ],
   "date": "Nov. 25, 2026",
-  "sources": "Sources: Ben Shapiro on X, Nov. 23; Trump on CNBC via Fox News, Nov. 23; Nvidia newsroom, Nov. 12 and Nov. 23; New York Post, Nov. 24; Cotton on X, Nov. 23; Sens. Schumer and Warren; House Foreign Affairs; Senate Banking via The Hill and CNBC.",
+  "sources": "Sources: Trump on CNBC via Fox News, Nov. 23; Nvidia newsroom, Nov. 12 and Nov. 23; New York Post, Nov. 24; Cotton on X, Nov. 23; Sens. Schumer and Warren; House Foreign Affairs; Senate Banking via The Hill and CNBC.",
   "footer_right": "Whip illustration"
 }

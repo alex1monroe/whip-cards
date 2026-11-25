@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """UPDATE card (TALL v4, 2440x3092): Trump told the New York Post a Jensen Huang pardon is "always an option."
-Sources: Shapiro on X (Nov. 23); Trump on CNBC via Fox News (Nov. 23); Nvidia newsroom (Nov. 12, Nov. 23);
+Sources: Trump on CNBC via Fox News (Nov. 23); Nvidia newsroom (Nov. 12, Nov. 23);
 New York Post (Nov. 24); Sen. Tom Cotton on X (Nov. 23); Sens. Schumer and Warren; House Foreign Affairs;
 Senate Banking via The Hill and CNBC. No Whip scores. Whip illustration.
 """
