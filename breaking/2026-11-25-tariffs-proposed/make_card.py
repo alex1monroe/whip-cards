@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""UPDATE card (TALL v4): USTR proposes Section 301 tariffs on 14 partners, +20% China. Sources: AP, Reuters, BBC Nov 25. No Whip scores."""
+"""UPDATE card v2 (TALL v4): USTR proposes Section 301 tariffs on 14 partners, +20% China.
+Fixes: other side (China July paper), Federal Register moved into point 01, 14 partners attributed to Reuters.
+Sources: AP, Reuters, BBC Nov 25; WSJ Nov 24; Federal Register 2026-05214. No Whip scores."""
 import shutil
 import subprocess
 import sys
@@ -16,13 +18,19 @@ def main() -> None:
     )
     if r.returncode != 0:
         sys.exit(r.returncode)
-    src = OUT / "card.png"
     dest = Path(f"/workspace/whip-cards/{FOLDER}")
     dest.mkdir(parents=True, exist_ok=True)
-    for f in (src, Path(__file__).resolve(), OUT / "card.json", OUT / "tweet.txt", OUT / "alt.txt"):
+    for name in (
+        "card-v2.png",
+        "card.json",
+        "make_card.py",
+        "tweet-v2.txt",
+        "alt-v2.txt",
+    ):
+        f = OUT / name if name != "make_card.py" else Path(__file__).resolve()
         if f.exists():
-            shutil.copy(f, dest / f.name)
-            print("copied", dest / f.name)
+            shutil.copy(f, dest / Path(name).name)
+            print("copied", dest / Path(name).name)
 
 if __name__ == "__main__":
     main()
