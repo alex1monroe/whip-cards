@@ -1,0 +1,51 @@
+{
+  "output": "card.png",
+  "kicker": "INVESTIGATION \u00b7 FENTANYL",
+  "headline": "1.4 MILLION PILLS",
+  "headline_accent": "GO UNSEIZED",
+  "dek": "They moved through hotels, apartment complexes, Airbnb rentals and self-storage facilities in six states, an AP investigation found.",
+  "graphic": {
+    "type": "timeline",
+    "title": "HOW WE GOT HERE",
+    "nodes": [
+      {
+        "date": "AUG. 2024",
+        "text": "DEA agents stake out a hotel and watch a deal of as many as 100,000 pills go unseized.",
+        "dot": "blue"
+      },
+      {
+        "date": "APR. 2025",
+        "text": "A record bust of 4 million fentanyl pills, separate from the 1.4 million that went unseized.",
+        "dot": "blue"
+      },
+      {
+        "date": "AUG. 2026",
+        "text": "The DOJ inspector general opens a review on Aug. 17 of department-wide policies, using a judgmental sample across multiple jurisdictions.",
+        "dot": "blue"
+      },
+      {
+        "date": "NOV. 24",
+        "text": "AP counts at least 1.4 million additional pills that went unseized between August 2024 and April 2025.",
+        "dot": "red",
+        "accent": true
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "The DEA:",
+      "text": "The agency previously said its decisions were lawful and coordinated with federal prosecutors to prevent public harm."
+    },
+    {
+      "label": "Spokesperson Amanda Wozniak:",
+      "text": "\u201cOur response has not changed.\u201d"
+    },
+    {
+      "label": "Still unaccounted for:",
+      "text": "Almost all of the monitored pills remain unaccounted for, AP reported."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: AP, Nov. 24; DOJ OIG, Aug. 17.",
+  "footer_right": "Whip illustration"
+}
