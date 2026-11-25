@@ -1,0 +1,76 @@
+{
+  "output": "card-v2.png",
+  "kicker": "NEW · GOVERNMENT ETHICS",
+  "headline": "STOCK BAN",
+  "headline_accent": "VOTE NEXT WEEK",
+  "dek": "House leaders teed up Rep. Bryan Steil’s Stop Insider Trading Act (H.R. 11142) for a floor vote, Bloomberg Government reports.",
+  "graphic": {
+    "type": "does_doesnt",
+    "title": "THE STOP INSIDER TRADING ACT",
+    "does": {
+      "head": "WHAT IT DOES",
+      "items": [
+        {
+          "title": "BANS BUYING STOCKS",
+          "text": "Lawmakers, their spouses and dependent children couldn’t buy stock in public companies (H.R. 11142)."
+        },
+        {
+          "title": "SELLING ALLOWED",
+          "text": "Members could sell with 7–14 days’ notice (H.R. 11142)."
+        }
+      ]
+    },
+    "doesnt": {
+      "head": "WHAT IT DOESN’T",
+      "items": [
+        {
+          "title": "FORCE A SELL-OFF",
+          "text": "No requirement to divest current holdings. Democrats have called for a wider ban that does (Bloomberg Government)."
+        },
+        {
+          "title": "START IMMEDIATELY",
+          "text": "The restrictions would take effect 180 days after enactment (H.R. 11142)."
+        }
+      ]
+    },
+    "steps_title": "THE ROAD SO FAR",
+    "steps": [
+      {
+        "date": "EARLIER",
+        "text": "House passes the ban in a bill that also required photo voter ID"
+      },
+      {
+        "date": "LATE SEPT.",
+        "kind": "red",
+        "text": "That version fails a Senate procedural vote"
+      },
+      {
+        "date": "NOV. 30",
+        "kind": "acc",
+        "text": "Rules Committee meets at 4 p.m. on the stand-alone bill"
+      },
+      {
+        "date": "NEXT WEEK",
+        "kind": "up",
+        "text": "House floor vote expected"
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "Split off:",
+      "text": "This time the ban isn’t tied to voter ID, which Democrats largely rejected."
+    },
+    {
+      "label": "Democrats’ view:",
+      "text": "They want a wider ban that requires divestment, and some also want it to cover the president. They say they’ll prioritize a ban when they take control next year (Bloomberg Government)."
+    },
+    {
+      "label": "Next:",
+      "text": "The House Rules Committee takes it up Nov. 30."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: Bloomberg Government, Nov. 25, 2026; H.R. 11142; House Rules Committee.",
+  "footer_right": "Whip illustration"
+}
