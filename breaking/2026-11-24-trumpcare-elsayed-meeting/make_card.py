@@ -13,7 +13,7 @@ GRN, YEL, RED, BLU, PAPER, MUTE = "#2fd28a", "#ffcc00", "#ff2d2a", "#3d8bff", "#
 p = []
 p.append(f'<text x="0" y="18" font-family="Archivo Black" font-size="14" letter-spacing="1.6" fill="{PAPER}">HOW WE GOT HERE</text>')
 steps = [("NOV. 12", "El-Sayed pitch", "Pitch posted on X", BLU),
-         ("NOV. 22", "Trump repost", "Mock-up on Truth Social", RED),
+         ("NOV. 21", "Trump repost", "Mock-up on Truth Social", RED),
          ("NOV. 24", "Meeting pledge", "Says he&rsquo;ll meet", YEL)]
 ty = 70
 p.append(f'<line x1="30" y1="{ty}" x2="530" y2="{ty}" stroke="#4a4a54" stroke-width="3"/>')
@@ -33,12 +33,12 @@ p.append(f'<text x="18" y="{qy+72}" font-family="Anton" font-size="27" fill="{GR
 p.append(f'<text x="18" y="{qy+94}" font-family="Inter" font-size="12" font-weight="600" fill="{MUTE}">President Trump to the New York Post, Oval Office interview, Nov. 24</text>')
 graphic = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{"".join(p)}</svg>'
 html = wrap(f"""
-<div class="footer"><span>Sources: New York Post (Nov. 12, 22 &amp; 24, 2026). Illustration.</span><span>Whip illustration &middot; not a White House or news graphic</span></div>
+<div class="footer"><span>Sources: El-Sayed on X (Nov. 12); New York Post (Nov. 22 &amp; 24, 2026). Illustration.</span><span>Whip illustration &middot; not a White House or news graphic</span></div>
 <div class="tag"><span class="dot"></span>UPDATE &middot; HEALTH CARE</div>
 <div class="left">
   <div class="h1">TRUMP TO MEET<br><span class="y">EL-SAYED</span></div>
   <div class="h2">ON &ldquo;TRUMPCARE&rdquo;<br>MEDICARE FOR ALL</div>
-  <div class="att">President Trump told the New York Post he will meet with Michigan Sen.-elect Abdul El-Sayed to discuss his Medicare for All plan, branded &ldquo;Trumpcare.&rdquo; Trump called the branding &ldquo;very smart.&rdquo; No date was given.</div>
+  <div class="att">President Trump told the New York Post he will meet with Michigan Sen.-elect Abdul El-Sayed to discuss his Medicare for All plan, branded &ldquo;Trumpcare.&rdquo; Trump praised the branding, calling El-Sayed &ldquo;a smart guy.&rdquo; No date was given.</div>
   <div class="chips"><span>Single-payer plan</span><span>No date set</span></div>
 </div>
 <div class="panel">
@@ -49,7 +49,7 @@ html = wrap(f"""
   <div class="wt">WHAT THIS<br><span class="y">MEANS</span></div>
   <div class="b"><div class="n">01</div><div><b>The meeting:</b> Trump says it will happen; he did not give a date, per the Post.</div></div>
   <div class="b"><div class="n">02</div><div><b>The plan:</b> El-Sayed&rsquo;s single-payer Medicare for All proposal, which he has branded &ldquo;Trumpcare.&rdquo;</div></div>
-  <div class="b"><div class="n">03</div><div><b>Next step:</b> any bill would need Congress, where Democrats are set to control both chambers in January.</div></div>
+  <div class="b"><div class="n">03</div><div><b>Next step:</b> any bill would need Congress, where Democrats are set to control both chambers in January. Republicans oppose the plan, and Trump would have to sign it, per the Post.</div></div>
 </div>
 """, """
 body{background:radial-gradient(ellipse at 70% 38%,#0a3a2e 0%,#0a2a22 45%,#09090b 82%)}
