@@ -10,7 +10,8 @@ No stock % moves. Whip illustration.
 Usage:
     python3 make_card.py              # renders card.json -> card.png
     python3 make_card.py card-v2.json # renders card-v2.json -> card-v2.png
-Does not post or schedule. v1 files are left in place when rendering v2.
+    python3 make_card.py card-v3.json # renders card-v3.json -> card-v3.png
+Does not post or schedule. v1 and v2 files are left in place when rendering v3.
 """
 import html
 import importlib.util
@@ -25,6 +26,7 @@ FOLDER = "breaking/2026-11-25-vance-huang-pardon"
 FILES = (
     "card.png", "card.json", "make_card.py", "alt.txt",
     "card-v2.png", "card-v2.json", "alt-v2.txt", "tweet-v2.txt",
+    "card-v3.png", "card-v3.json", "alt-v3.txt",
 )
 
 spec = importlib.util.spec_from_file_location("tall_v4", TEMPLATE)
