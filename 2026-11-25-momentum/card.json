@@ -1,0 +1,83 @@
+{
+  "output": "card.png",
+  "kicker": "WHIP DATA · NOV. 23 → NOV. 24",
+  "headline": "ISSUE MOMENTUM",
+  "headline_accent": "ICE, GUNS AND IRAN HEAT UP",
+  "dek": "Online heat, day over day. Pocketbook issues voters rank highest cooled online.",
+  "graphic": {
+    "type": "momentum",
+    "sections": [
+      {
+        "kind": "up",
+        "title": "HEATING UP",
+        "rows": [
+          [
+            "UP 48%",
+            "Sanctuary cities & ICE cooperation"
+          ],
+          [
+            "UP 44%",
+            "Assault weapon bans & checks"
+          ],
+          [
+            "UP 19%",
+            "War with Iran"
+          ]
+        ]
+      },
+      {
+        "kind": "hot",
+        "title": "HOT (HOLDING)",
+        "rows": [
+          [
+            "NO. 1",
+            "Israel, Gaza & Middle East aid (up 1%)"
+          ],
+          [
+            "NO. 2",
+            "Ukraine aid & NATO commitments (down 2%)"
+          ],
+          [
+            "NO. 3",
+            "Crypto, digital assets & SEC (up 5%)"
+          ]
+        ]
+      },
+      {
+        "kind": "down",
+        "title": "COOLING OFF",
+        "rows": [
+          [
+            "DOWN 28%",
+            "Grocery inflation & price gouging"
+          ],
+          [
+            "DOWN 24%",
+            "Clean drinking water & PFAS"
+          ],
+          [
+            "DOWN 16%",
+            "Cyberattacks & ransomware"
+          ]
+        ]
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "Online vs. voters:",
+      "text": "Cost of Living remains voters' No. 1 priority category (polling as of Nov. 16), yet grocery prices cooled online."
+    },
+    {
+      "label": "Top single issue:",
+      "text": "Health care costs & insurance premiums leads voter priority (polling as of Nov. 16); its online heat fell 8%."
+    },
+    {
+      "label": "Comparable days:",
+      "text": "60 issues had heat both days; 155,619 messages Nov. 23 vs. 150,849 Nov. 24."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Whip data: online heat is relative within each day; change compares Nov. 23 and Nov. 24, 2026 (60 issues each; 155,619 and 150,849 messages). Voter priority from polling as of Nov. 16, 2026. Source: api.whipcampaigns.com/civic, pulled Nov. 25, 2026.",
+  "footer_right": "Whip data"
+}
