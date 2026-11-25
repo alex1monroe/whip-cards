@@ -17,7 +17,7 @@ from pathlib import Path
 OUT = Path(__file__).resolve().parent
 TEMPLATE = Path("/home/box/whip/templates/make_card_tall_v4.py")
 FOLDER = "breaking/2026-11-25-birthright-second-judge"
-FILES = ("card.png", "card.json", "make_card.py", "alt.txt", "tweet.txt", "card-v2.png", "card-v2.json", "alt-v2.txt", "tweet-v2.txt")
+FILES = ("card.png", "card.json", "make_card.py", "alt.txt", "tweet.txt", "card-v2.png", "card-v2.json", "alt-v2.txt", "tweet-v2.txt", "card-v3.png", "card-v3.json", "alt-v3.txt", "tweet-v3.txt")
 
 spec = importlib.util.spec_from_file_location("tall_v4", TEMPLATE)
 T = importlib.util.module_from_spec(spec)
@@ -32,6 +32,10 @@ CSS = f"""
 .col{{background:#14141a;border-top:6px solid {T.GRN};padding:12px 18px;display:flex;flex-direction:column;gap:8px;min-height:0;overflow:hidden}}
 .col.no{{border-top-color:{T.RED}}}
 .ch{{display:flex;align-items:center;gap:12px;font-family:'Anton',sans-serif;font-size:40px;line-height:1;color:{T.PAPER}}}
+.csub{{font-family:'Inter',sans-serif;font-size:16px;font-weight:600;line-height:1.2;color:#8e8a82;margin:2px 0 0 66px}}
+.col.has-sub{{gap:6px;padding:10px 18px}}
+.col.has-sub .it{{padding-top:6px}}
+.col.has-sub .itb{{margin-top:6px}}
 .it{{flex:1;display:flex;flex-direction:column;justify-content:center;border-top:2px solid #2c2c34;padding-top:8px}}
 .itt{{font-family:'Anton',sans-serif;font-size:44px;line-height:1.02;color:{T.YEL}}}
 .col.no .itt{{color:{T.PAPER}}}
@@ -60,7 +64,10 @@ def render(g: dict) -> str:
             f'<div class="it"><div class="itt">{E(i["title"])}</div><div class="itb">{E(i["text"])}</div></div>'
             for i in c["items"]
         )
-        return f'<div class="col {kl}"><div class="ch">{icon}{E(c["head"])}</div>{items}</div>'
+        sub = c.get("subhead")
+        sub_html = f'<div class="csub">{E(sub)}</div>' if sub else ""
+        kl2 = f"{kl} has-sub" if sub else kl
+        return f'<div class="col {kl2}"><div class="ch">{icon}{E(c["head"])}</div>{sub_html}{items}</div>'
 
     steps = "".join(
         f'<div class="hs {s.get("kind", "")}"><div class="hd"></div><div class="hdate">{E(s["date"])}</div>'
