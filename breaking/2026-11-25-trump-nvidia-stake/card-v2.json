@@ -1,0 +1,76 @@
+{
+  "output": "card-v2.png",
+  "kicker": "UPDATE · GOVERNMENT ETHICS",
+  "headline": "TRUMP’S",
+  "headline_accent": "NVIDIA STAKE",
+  "dek": "Financial disclosures show the president has held and traded millions in Nvidia stock, CBS News reports.",
+  "graphic": {
+    "type": "ranges",
+    "title": "TRUMP’S NVIDIA STOCK · REPORTED AS RANGES",
+    "axis_max": 100,
+    "ticks": [0, 25, 50, 75, 100],
+    "rows": [
+      {
+        "label": "HELD",
+        "sub": "as of end of 2025, per OGE disclosures",
+        "low": 13,
+        "high": 58,
+        "value": "$13M–$58M",
+        "color": "yellow"
+      },
+      {
+        "label": "TRADED",
+        "sub": "100+ buys and sells, Jan. 2025–Sept. 2026, per disclosures",
+        "low": 27,
+        "high": 98,
+        "value": "$27M–~$98M",
+        "color": "blue"
+      }
+    ],
+    "note": "Bars show the low-to-high range on a $0–$100M scale. Ranges from disclosures filed with the Office of Government Ethics, as reported by CBS News.",
+    "quote": {
+      "text": "It’s not the job of the government to call up and say who the CEO of a company should be.",
+      "attr": "Richard Painter, former White House chief ethics attorney, told CBS News"
+    },
+    "strip": [
+      {
+        "date": "NOV. 12",
+        "text": "Huang resigns as Nvidia president and CEO, the company announced."
+      },
+      {
+        "date": "NOV. 23",
+        "text": "Nvidia’s board reinstates Huang. Trump says he spoke with the board and “convinced them” to rehire him."
+      },
+      {
+        "date": "NOV. 23",
+        "text": "Trump on CNBC: “we have to protect our geniuses.”"
+      },
+      {
+        "date": "NOV. 25",
+        "text": "CBS News reports Trump’s Nvidia holdings and trades from his disclosures.",
+        "accent": true
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "Ranges, not exact:",
+      "text": "Disclosures report value ranges, not exact amounts. CBS says it isn’t clear how many Nvidia shares the president currently owns."
+    },
+    {
+      "label": "The White House:",
+      "text": "Trump’s portfolio “is independently managed by third-party financial institutions,” and no family member can “direct, influence, or provide input.” It says holdings mirror indexes like the Schwab 1000. Trump has denied any conflict of interest."
+    },
+    {
+      "label": "A critic:",
+      "text": "Kathleen Clark, Washington University in St. Louis law professor: “This goes beyond a conflict of interest.”"
+    },
+    {
+      "label": "On the record:",
+      "text": "The president’s stake and his account of talking to Nvidia’s board are both public. Appointees at State, Commerce, Treasury and the IRS also reported millions in Nvidia stock; many have since sold."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: CBS News (Isabel Vincent), Nov. 25, 2026; Office of Government Ethics financial disclosures (via CBS News); Trump on CNBC, Nov. 23, 2026.",
+  "footer_right": "Whip illustration"
+}

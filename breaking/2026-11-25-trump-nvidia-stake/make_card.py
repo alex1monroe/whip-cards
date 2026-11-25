@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """UPDATE card (TALL v4, 2440x3092): Trump's Nvidia stake, per OGE disclosures reported by CBS News
-(Isabel Vincent, updated Nov. 25, 2026). Running story with breaking/2026-11-25-nvidia-huang-pardon.
-Uses /home/box/whip/templates/make_card_tall_v4.py unchanged, adding a local "ranges" graphic type
-(low-high range bars on a shared $0-$100M scale plus a small two-date strip). No Whip scores. Whip illustration.
-Does not post or schedule.
+(Isabel Vincent, updated Nov. 25, 2026). Running story with breaking/2026-11-25-nvidia-huang-pardon
+and the Nov. 23 CNBC clip. Uses /home/box/whip/templates/make_card_tall_v4.py unchanged, adding a
+local "ranges" graphic type (low-high range bars on a shared $0-$100M scale, an attributed quote,
+and a compact timeline strip). No Whip scores. No stock % moves. Whip illustration.
+
+Usage:
+    python3 make_card.py              # renders card.json -> card.png
+    python3 make_card.py card-v2.json # renders card-v2.json -> card-v2.png
+Does not post or schedule. v1 files are left in place when rendering v2.
 """
 import html
 import importlib.util
@@ -15,7 +20,10 @@ from pathlib import Path
 OUT = Path(__file__).resolve().parent
 TEMPLATE = Path("/home/box/whip/templates/make_card_tall_v4.py")
 FOLDER = "breaking/2026-11-25-trump-nvidia-stake"
-FILES = ("card.png", "card.json", "make_card.py", "alt.txt")
+FILES = (
+    "card.png", "card.json", "make_card.py", "alt.txt",
+    "card-v2.png", "card-v2.json", "alt-v2.txt", "tweet-v2.txt",
+)
 
 spec = importlib.util.spec_from_file_location("tall_v4", TEMPLATE)
 T = importlib.util.module_from_spec(spec)
@@ -24,24 +32,28 @@ spec.loader.exec_module(T)
 COLORS = {"red": T.RED, "yellow": T.YEL, "green": T.GRN, "blue": T.BLU}
 
 RANGES_CSS = f"""
-.rows{{flex:1;display:flex;flex-direction:column;justify-content:space-evenly;min-height:0}}
+.rows{{flex:0 0 auto;display:flex;flex-direction:column;gap:8px;min-height:0}}
 .rr-top{{display:flex;justify-content:space-between;align-items:flex-end;gap:20px}}
-.rl{{font-family:'Anton',sans-serif;font-size:58px;line-height:1;color:{T.PAPER}}}
-.rs{{font-family:'Inter',sans-serif;font-size:21px;font-weight:600;color:#a8a49a;margin-top:6px}}
-.rv{{font-family:'Anton',sans-serif;font-size:84px;line-height:1;white-space:nowrap}}
-.rtrack{{position:relative;height:58px;margin-top:12px;background:#1a1a20}}
+.rl{{font-family:'Anton',sans-serif;font-size:52px;line-height:1;color:{T.PAPER}}}
+.rs{{font-family:'Inter',sans-serif;font-size:20px;font-weight:600;color:#a8a49a;margin-top:4px}}
+.rv{{font-family:'Anton',sans-serif;font-size:76px;line-height:1;white-space:nowrap}}
+.rtrack{{position:relative;height:48px;margin-top:10px;background:#1a1a20}}
 .rtick{{position:absolute;top:0;bottom:0;width:2px;background:#2c2c34}}
 .rseg{{position:absolute;top:0;bottom:0}}
 .rcap{{position:absolute;top:-6px;bottom:-6px;width:6px;background:{T.PAPER}}}
-.axis{{position:relative;height:26px;margin-top:4px}}
-.axis span{{position:absolute;transform:translateX(-50%);font-family:'Inter',sans-serif;font-size:17px;font-weight:700;color:{T.MUTE}}}
+.axis{{position:relative;height:22px;margin-top:3px}}
+.axis span{{position:absolute;transform:translateX(-50%);font-family:'Inter',sans-serif;font-size:16px;font-weight:700;color:{T.MUTE}}}
 .axis span:first-child{{transform:none}} .axis span:last-child{{transform:translateX(-100%)}}
-.pnote{{font-family:'Inter',sans-serif;font-size:17px;font-weight:600;color:{T.MUTE};margin-top:4px}}
-.tstrip{{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:12px;border-top:2px solid #2c2c34;padding-top:12px}}
-.ts{{display:flex;gap:14px;align-items:flex-start}}
-.ts .d{{font-family:'Anton',sans-serif;font-size:34px;line-height:1;color:{T.YEL};white-space:nowrap}}
-.ts .t{{font-family:'Inter',sans-serif;font-size:20px;font-weight:600;color:{T.PAPER};line-height:1.25}}
-.strip .means{{gap:9px}}
+.pnote{{font-family:'Inter',sans-serif;font-size:16px;font-weight:600;color:{T.MUTE};margin-top:6px}}
+.qbox{{margin-top:10px;background:#14141a;border-left:4px solid {T.YEL};padding:10px 14px 11px}}
+.qt{{font-family:'Inter',sans-serif;font-size:21px;font-weight:600;font-style:italic;line-height:1.28;color:{T.PAPER}}}
+.qa{{font-family:'Inter',sans-serif;font-size:16px;font-weight:700;color:#a8a49a;margin-top:6px}}
+.tstrip{{display:flex;flex-direction:column;justify-content:space-evenly;flex:1;min-height:0;gap:8px;margin-top:10px;border-top:2px solid #2c2c34;padding-top:10px;padding-bottom:4px}}
+.ts{{display:grid;grid-template-columns:118px 1fr;gap:12px;align-items:start}}
+.ts .d{{font-family:'Anton',sans-serif;font-size:30px;line-height:1;color:{T.PAPER};white-space:nowrap;text-align:right;padding-top:1px}}
+.ts.accent .d{{color:{T.YEL}}}
+.ts .t{{font-family:'Inter',sans-serif;font-size:19px;font-weight:600;color:{T.PAPER};line-height:1.25}}
+.strip .means{{gap:8px}}
 .strip .b{{font-size:19px}}
 .strip .n{{font-size:28px;flex:0 0 36px}}
 """
@@ -71,15 +83,26 @@ def render_ranges(g: dict) -> str:
             f'<div class="axis">{axis}</div></div>'
         )
     note = f'<div class="pnote">{html.escape(g["note"])}</div>' if g.get("note") else ""
+    quote = ""
+    if g.get("quote"):
+        q = g["quote"]
+        quote = (
+            f'<div class="qbox"><div class="qt">“{html.escape(q.get("text", ""))}”</div>'
+            f'<div class="qa">{html.escape(q.get("attr", ""))}</div></div>'
+        )
     strip = ""
     if g.get("strip"):
-        strip = '<div class="tstrip">' + "".join(
-            f'<div class="ts"><div class="d">{html.escape(s["date"])}</div><div class="t">{html.escape(s["text"])}</div></div>'
-            for s in g["strip"]
-        ) + "</div>"
+        items = []
+        for s in g["strip"]:
+            kl = "ts accent" if s.get("accent") else "ts"
+            items.append(
+                f'<div class="{kl}"><div class="d">{html.escape(s["date"])}</div>'
+                f'<div class="t">{html.escape(s["text"])}</div></div>'
+            )
+        strip = '<div class="tstrip">' + "".join(items) + "</div>"
     return (
         f'<div class="panel"><div class="ph">{html.escape(g.get("title", ""))}</div>'
-        f'<div class="rows">{"".join(rows)}</div>{note}{strip}</div>'
+        f'<div class="rows">{"".join(rows)}</div>{note}{quote}{strip}</div>'
     )
 
 
