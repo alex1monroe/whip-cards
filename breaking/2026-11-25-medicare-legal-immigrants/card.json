@@ -1,0 +1,50 @@
+{
+  "output": "card.png",
+  "kicker": "BREAKING · HEALTH CARE",
+  "headline": "MEDICARE CUTOFF",
+  "headline_accent": "FOR LEGAL IMMIGRANTS",
+  "dek": "Social Security letters tell an estimated 300,000 legal immigrants their Medicare will end, The Washington Post reported.",
+  "graphic": {
+    "type": "timeline",
+    "title": "HOW WE GOT HERE",
+    "nodes": [
+      {
+        "date": "JULY 2025",
+        "text": "Tax and spending law (H.R. 1) limits Medicare to citizens, green-card holders, Cuban-Haitian entrants and COFA migrants.",
+        "dot": "blue"
+      },
+      {
+        "date": "NOV. 2026",
+        "text": "Social Security starts mailing letters to enrollees who no longer qualify or must confirm their status.",
+        "dot": "red"
+      },
+      {
+        "date": "DEC. 2026",
+        "text": "CMS mails a follow-up letter on pink paper.",
+        "dot": "yellow"
+      },
+      {
+        "date": "FEB. 1, 2027",
+        "text": "Coverage ends for those who can't confirm an eligible status.",
+        "accent": true
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "Who is affected:",
+      "text": "Refugees, asylum grantees, TPS holders and trafficking victims who met work rules, per the Post."
+    },
+    {
+      "label": "The administration:",
+      "text": "CMS says the changes affect “a limited number of people with Medicare.”"
+    },
+    {
+      "label": "The criticism:",
+      "text": "Advocates warn patients on dialysis could lose coverage for treatment."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: The Washington Post, Nov. 24; CMS noncitizen eligibility job aid; The Herald Business, Nov. 25.",
+  "footer_right": "Whip illustration"
+}
