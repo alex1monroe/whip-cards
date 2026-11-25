@@ -1,0 +1,46 @@
+{
+  "output": "card.png",
+  "kicker": "UPDATE · TARIFFS & TRADE",
+  "headline": "NEW TARIFFS PROPOSED",
+  "headline_accent": "CHINA FACES +20%",
+  "dek": "The U.S. trade representative proposed tariffs on 14 trading partners after an eight-month Section 301 probe into “excess capacity.”",
+  "graphic": {
+    "type": "boxes",
+    "title": "WHO FACES WHAT",
+    "items": [
+      {
+        "title": "CHINA",
+        "text": "An added 20%, on top of first-term tariffs, kept within the cap of a trade truce that expires Jan. 10, 2027."
+      },
+      {
+        "title": "EU · JAPAN · S. KOREA · TAIWAN",
+        "text": "New rates stay within the 15% caps in existing trade deals."
+      },
+      {
+        "title": "INDIA · VIETNAM · 7 MORE",
+        "text": "Rates vary. Partners without finalized deals, like India and Vietnam, remain in talks. Malaysia stays within its 19% cap."
+      },
+      {
+        "title": "NOT INCLUDED YET",
+        "text": "Mexico and Norway are still under review, the trade office said."
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "When:",
+      "text": "A public comment period and hearing come first, which could push the tariffs into January 2027."
+    },
+    {
+      "label": "The administration:",
+      "text": "Says these partners create “structural excess capacity” that burdens U.S. commerce."
+    },
+    {
+      "label": "What's next:",
+      "text": "Rates to be published in the Federal Register. A U.S. official said Washington doesn't expect China to retaliate."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: AP, Nov. 25; Reuters via Investing.com, Nov. 25; BBC, Nov. 25; Federal Register 2026-05214.",
+  "footer_right": "Whip illustration"
+}
