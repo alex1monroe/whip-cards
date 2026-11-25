@@ -17,7 +17,7 @@ from pathlib import Path
 OUT = Path(__file__).resolve().parent
 TEMPLATE = Path("/home/box/whip/templates/make_card_tall_v4.py")
 FOLDER = "breaking/2026-11-25-birthright-second-judge"
-FILES = ("card.png", "card.json", "make_card.py", "alt.txt", "tweet.txt")
+FILES = ("card.png", "card.json", "make_card.py", "alt.txt", "tweet.txt", "card-v2.png", "card-v2.json", "alt-v2.txt", "tweet-v2.txt")
 
 spec = importlib.util.spec_from_file_location("tall_v4", TEMPLATE)
 T = importlib.util.module_from_spec(spec)
