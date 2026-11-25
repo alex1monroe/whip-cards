@@ -1,16 +1,16 @@
 {
-  "output": "card.png",
+  "output": "card-v2.png",
   "kicker": "BREAKING · COST OF LIVING",
   "headline": "INFLATION GAUGE",
   "headline_accent": "RISES TO 3.8%",
-  "dek": "Prices rose 3.8% in October from a year earlier, up from 3.6% in September, the Commerce Department said.",
+  "dek": "Prices rose 3.8% in October from a year earlier, up from 3.7% in September, the Commerce Department said.",
   "graphic": {
     "type": "boxes",
     "title": "OCTOBER BY THE NUMBERS",
     "items": [
       {
         "title": "ALL PRICES (PCE): 3.8%",
-        "text": "Year over year, up from 3.6% in September. In line with forecasts, per CNBC."
+        "text": "Year over year, up from 3.7% in September. In line with forecasts, per CNBC."
       },
       {
         "title": "EXCLUDING FOOD & ENERGY: 3.3%",
@@ -18,7 +18,7 @@
       },
       {
         "title": "MONTH OVER MONTH: +0.3%",
-        "text": "Down from a 0.5% rise in September, as gas prices cooled."
+        "text": "Down from a 0.5% rise in September, even as gas prices cooled, per AP."
       },
       {
         "title": "Q3 ECONOMY: 4.3% GROWTH",

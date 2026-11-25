@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""BREAKING card (TALL v4): October PCE 3.8%, core 3.3%; Q3 GDP 4.3%. Sources: BEA, AP, CNBC Nov 25. No Whip scores."""
+"""BREAKING card v2 (TALL v4): October PCE 3.8%, core 3.3%; Q3 GDP 4.3%.
+v2: September y/y is 3.7% not 3.6%; box 3 no longer reads as causation; tweet attributes the forecast line to CNBC.
+Sources: BEA, AP, CNBC Nov 25. No Whip scores."""
 import shutil
 import subprocess
 import sys
@@ -16,13 +18,19 @@ def main() -> None:
     )
     if r.returncode != 0:
         sys.exit(r.returncode)
-    src = OUT / "card.png"
     dest = Path(f"/workspace/whip-cards/{FOLDER}")
     dest.mkdir(parents=True, exist_ok=True)
-    for f in (src, Path(__file__).resolve(), OUT / "card.json", OUT / "tweet.txt", OUT / "alt.txt"):
+    for name in (
+        "card-v2.png",
+        "card.json",
+        "make_card.py",
+        "tweet-v2.txt",
+        "alt-v2.txt",
+    ):
+        f = OUT / name if name != "make_card.py" else Path(__file__).resolve()
         if f.exists():
-            shutil.copy(f, dest / f.name)
-            print("copied", dest / f.name)
+            shutil.copy(f, dest / Path(name).name)
+            print("copied", dest / Path(name).name)
 
 if __name__ == "__main__":
     main()
