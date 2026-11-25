@@ -1,0 +1,74 @@
+{
+  "output": "card.png",
+  "kicker": "NEW · GOVERNMENT ETHICS",
+  "headline": "WHO GAVE",
+  "headline_accent": "$347 MILLION?",
+  "dek": "A National Park Service donation account took in $347 million in September. Records don't say who gave the money, The New York Times reports.",
+  "graphic": {
+    "type": "bars",
+    "title": "PARK SERVICE DONATION ACCOUNT",
+    "groups": [
+      {
+        "title": "SEPTEMBER 2026",
+        "items": [
+          {
+            "label": "PROJECTED",
+            "sub": "for the month",
+            "value": "$50M",
+            "amount": 50,
+            "color": "mute"
+          },
+          {
+            "label": "ACTUAL",
+            "sub": "for the month",
+            "value": "$347M",
+            "amount": 347,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "title": "BEFORE AND AFTER TRUMP RETURNED TO OFFICE",
+        "small": true,
+        "items": [
+          {
+            "label": "BEFORE",
+            "sub": "per year",
+            "value": "<$100M",
+            "amount": 100,
+            "color": "mute"
+          },
+          {
+            "label": "SINCE",
+            "sub": "total, about",
+            "value": "~$790M",
+            "amount": 790,
+            "color": "red"
+          }
+        ]
+      }
+    ],
+    "note": "Bars share one scale. “Before” bar drawn at $100M; the actual yearly total was less."
+  },
+  "means": [
+    {
+      "label": "Undisclosed:",
+      "text": "Records don't name the source or sources, or say if it was one gift or several. The administration declined to say where it came from or what it will fund."
+    },
+    {
+      "label": "The spending:",
+      "text": "Trump has used the account to help pay for the White House ballroom, Lincoln Memorial Reflecting Pool repairs and design work on a planned triumphal arch."
+    },
+    {
+      "label": "Interior Dept.:",
+      "text": "Spokesperson Katie Martin: “President Donald J. Trump has done more to make our nation's capital a shining beacon than any other president in the history of this country.”"
+    },
+    {
+      "label": "A critic:",
+      "text": "Tony Irish of PEER, a former Interior attorney: “Are the donors seeking certain government benefits? We just don't know, because of the lack of transparency.”"
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Source: The New York Times, Nov. 24, 2026.",
+  "footer_right": "Whip illustration"
+}

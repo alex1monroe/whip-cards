@@ -1,0 +1,76 @@
+{
+  "output": "card.png",
+  "kicker": "BREAKING · MARKETS · AI",
+  "headline": "AI SELLOFF",
+  "headline_accent": "SINKS STOCKS",
+  "dek": "The Nasdaq fell more than 4% in early trading as chipmakers led a broad slide, Reuters reports.",
+  "graphic": {
+    "type": "bars",
+    "title": "INTRADAY DROP · AS OF 9:53 A.M. ET, NOV. 25",
+    "groups": [
+      {
+        "title": "MAJOR INDEXES",
+        "items": [
+          {
+            "label": "DOW",
+            "sub": "49,023.18",
+            "value": "−1.99%",
+            "amount": 1.99,
+            "color": "red"
+          },
+          {
+            "label": "S&P 500",
+            "sub": "6,995.20",
+            "value": "−2.86%",
+            "amount": 2.86,
+            "color": "red"
+          },
+          {
+            "label": "NASDAQ",
+            "sub": "Composite · 22,747.61",
+            "value": "−4.15%",
+            "amount": 4.15,
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "title": "CHIPMAKERS LED",
+        "small": true,
+        "items": [
+          {
+            "label": "CHIP INDEX",
+            "sub": "Philadelphia Semiconductor",
+            "value": "−5.8%",
+            "amount": 5.8,
+            "color": "red"
+          },
+          {
+            "label": "NVIDIA",
+            "value": "−8.6%",
+            "amount": 8.6,
+            "color": "red"
+          }
+        ]
+      }
+    ],
+    "note": "Intraday moves, not closing prices. Bars share one scale."
+  },
+  "means": [
+    {
+      "label": "Why:",
+      "text": "Traders doubt the debt-fueled AI and data-center buildout can earn enough back. The U.S. also proposed new tariffs on 14 major trading partners, including an added 20% on China, Reuters reports."
+    },
+    {
+      "label": "Your money:",
+      "text": "Retirement accounts tied to the S&P 500 are down sharply this month. The Nasdaq and S&P 500 are on track for their worst November since 2008."
+    },
+    {
+      "label": "This week:",
+      "text": "Markets are closed Thursday for Thanksgiving, with a shortened session Friday."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: Reuters, Nov. 25 (prices as of 9:53 a.m. ET); AP, Nov. 25.",
+  "footer_right": "Whip illustration"
+}
