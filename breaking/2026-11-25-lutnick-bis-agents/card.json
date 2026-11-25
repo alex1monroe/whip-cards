@@ -1,0 +1,46 @@
+{
+  "output": "card.png",
+  "kicker": "NEW · GOVERNMENT ETHICS",
+  "headline": "LUTNICK'S DETAIL",
+  "headline_accent": "DREW ON CHIP AGENTS",
+  "dek": "Commerce Secretary Howard Lutnick reassigned export-enforcement agents to his personal security detail, The Atlantic reports. Commerce says it was temporary.",
+  "graphic": {
+    "type": "boxes",
+    "title": "WHAT THE REPORT SAYS",
+    "items": [
+      {
+        "title": "THE AGENTS",
+        "text": "Bureau of Industry and Security agents, whose work includes stopping illegal exports of AI chips. BIS has fewer than 200 special agents."
+      },
+      {
+        "title": "THE DETAIL",
+        "text": "Typically three or four on Lutnick at a time, including on his private jet and at his residences, two former officials said."
+      },
+      {
+        "title": "THE REQUEST",
+        "text": "In April, Lutnick asked Congress for 290 more enforcement officers to fight chip smuggling."
+      },
+      {
+        "title": "COMMERCE SAYS",
+        "text": "The assignments were temporary and meant to add protection amid credible threats."
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "The stakes:",
+      "text": "Chip smuggling to China is at the center of the Nvidia export fight in Congress."
+    },
+    {
+      "label": "The trend:",
+      "text": "Publicly reported export enforcement actions roughly halved vs. 2023-24, per data The Atlantic cited."
+    },
+    {
+      "label": "The other side:",
+      "text": "Commerce says the agents added protection amid credible threats."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: The Atlantic, Nov. 24 (five people familiar; The Export Practitioner data), via Mediaite and MS NOW; Commerce Department statement.",
+  "footer_right": "Whip illustration"
+}
