@@ -1,0 +1,46 @@
+{
+  "output": "card.png",
+  "kicker": "BREAKING · COST OF LIVING",
+  "headline": "INFLATION GAUGE",
+  "headline_accent": "RISES TO 3.8%",
+  "dek": "Prices rose 3.8% in October from a year earlier, up from 3.6% in September, the Commerce Department said.",
+  "graphic": {
+    "type": "boxes",
+    "title": "OCTOBER BY THE NUMBERS",
+    "items": [
+      {
+        "title": "ALL PRICES (PCE): 3.8%",
+        "text": "Year over year, up from 3.6% in September. In line with forecasts, per CNBC."
+      },
+      {
+        "title": "EXCLUDING FOOD & ENERGY: 3.3%",
+        "text": "Up from 3.1% in September and 0.1 point above the forecast."
+      },
+      {
+        "title": "MONTH OVER MONTH: +0.3%",
+        "text": "Down from a 0.5% rise in September, as gas prices cooled."
+      },
+      {
+        "title": "Q3 ECONOMY: 4.3% GROWTH",
+        "text": "Annualized rate, revised up from 3.4%, the Commerce Department said Wednesday."
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "For households:",
+      "text": "Prices are still rising at nearly twice the Fed's 2% target, per CNBC."
+    },
+    {
+      "label": "Spending:",
+      "text": "Inflation-adjusted consumer spending was flat in October, BEA data show."
+    },
+    {
+      "label": "What's next:",
+      "text": "CNBC reports the data likely seal a Fed rate hike at its next meeting."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: U.S. Bureau of Economic Analysis, Nov. 25; AP, Nov. 25; CNBC, Nov. 25; CNN and Axios on Q3 GDP, Nov. 25.",
+  "footer_right": "Whip illustration"
+}
