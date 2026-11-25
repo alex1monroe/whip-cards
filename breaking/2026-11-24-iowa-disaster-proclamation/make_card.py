@@ -43,7 +43,7 @@ p.append(f'<text x="0" y="300" font-family="Inter" font-size="20" font-weight="6
 ty = 400
 p.append(f'<line x1="24" y1="{ty}" x2="{GW-24}" y2="{ty}" stroke="#4a4a54" stroke-width="5"/>')
 steps = [
-    ("NOV. 23", "DATE SET", "Army moves blast to Wed.", MUTE, 24),
+    ("NOV. 24", "ARMY BRIEFING", "Press conference at the plant", MUTE, 24),
     ("NOV. 24", "DISASTER DECLARED", "Gov. Reynolds", YEL, GW / 2),
     ("NOV. 25", "9 A.M. CT BLAST", "Controlled detonation", RED, GW - 24),
 ]
@@ -99,7 +99,7 @@ body{{font-family:'Barlow Condensed',sans-serif;background:radial-gradient(ellip
     <div class="h1">IOWA DECLARES<br><span class="y">DISASTER EMERGENCY</span></div>
     <div class="h2">3 COUNTIES, HOURS BEFORE THE ARMY&rsquo;S BLAST</div>
     <div class="att">Gov. Kim Reynolds declared a state disaster emergency for Des Moines, Lee and Van Buren counties ahead of the Army&rsquo;s controlled detonation of degraded lead azide at the Iowa Army Ammunition Plant, set for 9 a.m. CT Wednesday, her office said.</div>
-    <div class="chips"><span>State resources activated</span><span>Guard deployed</span></div>
+    <div class="chips"><span>State plans activated</span><span>Up to 100 soldiers</span></div>
   </div>
   <div class="panel">
     <div class="ph">WHERE &amp; WHEN &middot; WHIP ILLUSTRATION</div>
