@@ -1,0 +1,60 @@
+{
+  "output": "card.png",
+  "kicker": "UPDATE · CORRUPTION & ETHICS",
+  "headline": "TRUMP: HUANG PARDON",
+  "headline_accent": "“ALWAYS AN OPTION”",
+  "dek": "The president told the New York Post he does not think a pardon will be necessary.",
+  "graphic": {
+    "type": "timeline",
+    "title": "HOW WE GOT HERE",
+    "nodes": [
+      {
+        "date": "NOV. 12",
+        "text": "Huang resigns as Nvidia president and CEO, the company announced.",
+        "dot": "red"
+      },
+      {
+        "date": "NOV. 23",
+        "text": "Nvidia’s board reinstates him, citing “input from senior levels of the United States government.”",
+        "dot": "green"
+      },
+      {
+        "date": "NOV. 23",
+        "text": "Shapiro: the White House’s intervention is a “political nuclear bomb.”",
+        "icon": "post",
+        "dot": "blue"
+      },
+      {
+        "date": "NOV. 24",
+        "text": "Trump tells the Post a Huang pardon is “always an option.”",
+        "dot": "yellow"
+      },
+      {
+        "date": "DEC. 1",
+        "text": "Closed-door House interview, including Foreign Affairs."
+      },
+      {
+        "date": "DEC. 3",
+        "text": "Senate Banking public hearing on export controls.",
+        "accent": true
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "What Trump said:",
+      "text": "He told CNBC, “I believe my intervention was very important.”"
+    },
+    {
+      "label": "The administration:",
+      "text": "The White House said it has “no reason to believe” a national security risk. AG Blanche: no evidence of “unlawful conduct.”"
+    },
+    {
+      "label": "The criticism:",
+      "text": "Schumer and Warren objected. Cotton said the controversy is “just the tip of the iceberg” and Congress “has much to investigate.” Hearings: Dec. 1 and Dec. 3."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: Ben Shapiro on X, Nov. 23; Trump on CNBC via Fox News, Nov. 23; Nvidia newsroom, Nov. 12 and Nov. 23; New York Post, Nov. 24; Cotton on X, Nov. 23; Sens. Schumer and Warren; House Foreign Affairs; Senate Banking via The Hill and CNBC.",
+  "footer_right": "Whip illustration"
+}
