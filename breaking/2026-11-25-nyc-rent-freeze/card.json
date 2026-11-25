@@ -1,0 +1,66 @@
+{
+  "output": "card.png",
+  "kicker": "BREAKING · COST OF LIVING",
+  "headline": "NYC RENT FREEZE",
+  "headline_accent": "STANDS",
+  "dek": "A Manhattan judge upheld the Rent Guidelines Board’s two-year rent freeze and dismissed a landlord lawsuit, Gothamist reports.",
+  "graphic": {
+    "type": "stat_timeline",
+    "stats": [
+      {
+        "value": "~1 MILLION",
+        "label": "rent-stabilized apartments covered"
+      },
+      {
+        "value": "0%",
+        "label": "rent increase for two years"
+      }
+    ],
+    "title": "HOW WE GOT HERE",
+    "nodes": [
+      {
+        "date": "JUNE 2026",
+        "text": "The Rent Guidelines Board approves a two-year freeze, fulfilling one of Mayor Zohran Mamdani’s campaign pledges."
+      },
+      {
+        "date": "LAWSUIT",
+        "dot": "red",
+        "text": "Landlords sue, saying the board ran a “sham” process that ignored owners’ rising expenses, and ask for a new vote. The mayor and city lawyers deny interfering and say the board decided independently."
+      },
+      {
+        "date": "NOV. 25",
+        "new": true,
+        "text": "Judge Brendan Lantry dismisses the suit, writing that the court lacked authority to overturn the freeze."
+      }
+    ],
+    "quotes": [
+      {
+        "head": "THE JUDGE",
+        "text": "…may have detrimental impacts on the New York City residential real estate industry.",
+        "attr": "Judge Brendan Lantry, on the freeze (via Gothamist)"
+      },
+      {
+        "head": "TENANT LAWYERS",
+        "text": "The law is clear that courts do not have the power to override the decisions of the Rent Guidelines Board.",
+        "attr": "Ellen Davidson, Legal Aid Society (via Gothamist)"
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "The freeze stays:",
+      "text": "It stays in place for about 1 million rent-stabilized apartments."
+    },
+    {
+      "label": "A caveat:",
+      "text": "Lantry said courts can’t override the board, but wrote that “to guarantee a rent freeze to millions of New Yorkers without the authority to do so, is irresponsible.”"
+    },
+    {
+      "label": "What’s next:",
+      "text": "Landlords’ attorney Randy Mastro didn’t say whether they’ll appeal."
+    }
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: Gothamist, Nov. 25, 2026; The New York Times; New York Post, Nov. 25, 2026.",
+  "footer_right": "Whip illustration"
+}
