@@ -1,0 +1,27 @@
+{
+  "output": "card.png",
+  "kicker": "BREAKING · FREE SPEECH",
+  "headline": "JUDGE BLOCKS FCC",
+  "headline_accent": "REVIEW OF ABC LICENSES",
+  "dek": "A federal judge found ABC likely to prove the FCC’s early license review was retaliation for its speech. “This is not a close case,” she wrote.",
+  "graphic": {
+    "type": "timeline",
+    "title": "HOW WE GOT HERE",
+    "nodes": [
+      {"date": "APR. 23", "text": "In a skit on his ABC show, Jimmy Kimmel jokes about first lady Melania Trump.", "dot": "blue"},
+      {"date": "APR. 27", "text": "Trump posts on Truth Social that Kimmel “should be immediately fired by Disney and ABC.”", "icon": "post", "dot": "blue"},
+      {"date": "APR. 28", "text": "The next day, the FCC orders early license renewals for the 8 stations ABC owns, citing its probe of Disney’s diversity practices. None were due before 2028.", "dot": "yellow"},
+      {"date": "AUG. 18", "text": "ABC, Disney and the 8 stations sue the FCC in federal court in Washington.", "dot": "blue"},
+      {"date": "OCT. 6", "text": "At a hearing, the FCC argues the case belongs in the appeals court, not district court.", "dot": "blue"},
+      {"date": "NOV. 25", "text": "Judge Loren AliKhan bars the FCC from further action on the early renewals while the case goes on.", "dot": "red", "accent": true}
+    ]
+  },
+  "means": [
+    {"label": "Paused, not over:", "text": "The order is preliminary. The lawsuit continues, and the FCC must report on compliance by Dec. 2."},
+    {"label": "The FCC’s side:", "text": "It says the review grew out of its diversity-practices probe and that the case was filed in the wrong court."},
+    {"label": "Other tools remain:", "text": "The judge said the FCC is still free to use other investigative tools."}
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: ABC v. FCC, No. 26-cv-2902 (D.D.C.), opinion and order, Nov. 25; FCC Media Bureau order DA 26-416, Apr. 28; Reuters, NBC News, Deadline, Washington Sun, Nov. 25; AP, Aug. 18 and Oct. 6.",
+  "footer_right": "Whip illustration"
+}
