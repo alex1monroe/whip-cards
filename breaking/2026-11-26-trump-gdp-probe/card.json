@@ -1,0 +1,26 @@
+{
+  "kicker": "BREAKING · ECONOMY",
+  "date": "Nov. 26, 2026",
+  "headline": "Trump seeks probe after GDP is *revised up*",
+  "quote": "This is not a small error, this is a massive, and purposeful, error.",
+  "attribution": "President Trump, Truth Social",
+  "bars_title": "Q3 GDP, annual rate",
+  "bars": [
+    {
+      "label": "First estimate",
+      "date": "Oct. 29",
+      "value": 3.4,
+      "color": "paper"
+    },
+    {
+      "label": "Second estimate",
+      "date": "Nov. 25",
+      "value": 4.3,
+      "color": "yellow"
+    }
+  ],
+  "other_side": "BEA: Revision reflects updated software investment and consumer-spending data.",
+  "source": "Sources: Truth Social via AP; BEA, Nov. 25, 2026",
+  "footer_right": "Whip illustration",
+  "art": "none"
+}
