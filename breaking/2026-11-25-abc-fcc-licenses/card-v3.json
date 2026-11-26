@@ -1,0 +1,27 @@
+{
+  "layout": "gap",
+  "output": "option-b-final",
+  "kicker": "BREAKING · FREE SPEECH",
+  "date": "Nov. 25, 2026",
+  "headline": "Judge blocks FCC's early review of ABC licenses",
+  "gap": {
+    "from": {
+      "date": "APR. 27",
+      "text": "Trump: Kimmel “should be immediately fired by Disney and ABC”"
+    },
+    "big": "*1 DAY*",
+    "to": {
+      "date": "APR. 28",
+      "text": "FCC orders early review of ABC licenses"
+    }
+  },
+  "other_side": "FCC: Its review grew out of a diversity probe.",
+  "source": "Source: ABC v. FCC, D.D.C., Nov. 25 opinion",
+  "footer_right": "Whip illustration",
+  "art": "tower",
+  "art_size": {
+    "tall": 300,
+    "wide": 0
+  },
+  "finding": "Judge: ABC likely to prove the review was retaliation."
+}
