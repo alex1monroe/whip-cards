@@ -210,7 +210,7 @@ body{{background:radial-gradient(ellipse at {80 if tall else 85}% {70 if tall el
 .attr{{display:flex;align-items:center;gap:20px;margin-top:40px;font-family:'Inter',sans-serif;font-weight:700;font-size:{s['attr']}px;color:#d8d4ca}}
 .bar{{width:64px;height:8px;background:{YEL};flex:0 0 64px}}
 .spacer{{flex:1}}
-.other{{font-family:'Inter',sans-serif;font-weight:600;font-size:{s['other']}px;line-height:1.25;color:#cfcbc1;border-left:8px solid #4a4f4c;padding:10px 28px 10px 24px;width:max-content;max-width:{1000 if tall else 1300}px;background:rgba(8,9,10,.55)}}
+.other{{font-family:'Inter',sans-serif;font-weight:600;font-size:{s['other']}px;line-height:1.25;color:#cfcbc1;border-left:8px solid #4a4f4c;padding:10px 24px 10px 22px;width:max-content;max-width:{1076 if tall else 1500}px;background:rgba(8,9,10,.92)}}
 .other b{{color:{PAPER};font-weight:800}}
 .other.finding{{border-left-color:{PAPER};margin-bottom:18px;color:{PAPER}}}
 .footer{{position:absolute;left:{pad}px;right:{pad}px;bottom:44px;display:flex;justify-content:space-between;align-items:center;gap:24px;border-top:2px solid #2a2d2b;padding-top:20px;z-index:6;font-family:'Inter',sans-serif;font-weight:600}}
