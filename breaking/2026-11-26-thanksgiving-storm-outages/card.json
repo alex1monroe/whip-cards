@@ -1,0 +1,40 @@
+{
+  "kicker": "BREAKING · INFRASTRUCTURE",
+  "date": "Nov. 26, 2026",
+  "headline": "Thanksgiving storms knock out *power*",
+  "stat": "800,000+",
+  "stat_sub": "homes and businesses without power",
+  "bars_title": "Most customers out",
+  "bars": [
+    {
+      "label": "Virginia",
+      "note": "",
+      "value": 181,
+      "text": "181K+"
+    },
+    {
+      "label": "Maryland",
+      "note": "",
+      "value": 172,
+      "text": "172K+"
+    },
+    {
+      "label": "Pennsylvania",
+      "note": "",
+      "value": 136,
+      "text": "136K+"
+    },
+    {
+      "label": "Missouri",
+      "note": "snowstorm",
+      "value": 121,
+      "text": "121K+"
+    }
+  ],
+  "other_side": "Utilities: Rain-soaked ground and strong winds raise the risk of falling trees and outages.",
+  "source": "Source: PowerOutage.us via NBC News, 3:30 p.m. ET; Reuters",
+  "footer_right": "Whip illustration",
+  "art": "none",
+  "headline_px": 58,
+  "stat_px": 290
+}
