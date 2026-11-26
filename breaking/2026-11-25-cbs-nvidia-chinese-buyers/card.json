@@ -1,0 +1,39 @@
+{
+  "output": "card.png",
+  "kicker": "UPDATE · NATIONAL SECURITY",
+  "headline": "NVIDIA'S CALIFORNIA BUYERS",
+  "headline_accent": "WITH CHINESE OWNERS",
+  "dek": "A CBS News investigation found two California companies with priority access to Nvidia's most advanced chips are owned by Chinese firms.",
+  "graphic": {
+    "type": "chains",
+    "title": "WHO OWNS THE BUYERS · PER CBS NEWS",
+    "chains": [
+      {
+        "steps": [
+          {"name": "NVIDIA", "sub": "Sells its most advanced AI chips"},
+          {"name": "RICLOUD AI", "sub": "San Jose, Calif. · Nvidia “preferred” cloud partner"},
+          {"name": "YUXING INFOTECH", "sub": "Parent company · Shenzhen, China · Hong Kong-listed", "owner": true}
+        ],
+        "note": "Nvidia's filings count these as U.S. sales. This year RiCloud agreed to lease 300 Nvidia B300 servers to a Taiwan firm once known for importing whisky.",
+        "status": "The U.S. government has not accused RiCloud or Yuxing of wrongdoing."
+      },
+      {
+        "steps": [
+          {"name": "NVIDIA", "sub": "Lists Aivres as an “elite” partner, its top tier"},
+          {"name": "AIVRES", "sub": "California server maker · formerly named Inspur"},
+          {"name": "INSPUR", "sub": "Chinese parent · Inspur group firms blacklisted by the U.S. in March 2023", "owner": true}
+        ],
+        "note": "Aivres renamed itself after that blacklisting. It shipped servers with Blackwell chips to firms in Malaysia, including Megaspeed, a New York Times analysis found.",
+        "status": "Aivres itself is not blacklisted. It did not respond to CBS."
+      }
+    ]
+  },
+  "means": [
+    {"label": "Bought in the U.S.:", "text": "These chips are sold to U.S.-based companies. CBS does not report that any of these sales broke export rules."},
+    {"label": "Vetting questions:", "text": "Nvidia has not said what background checks it ran before giving RiCloud partner status, CBS reports."},
+    {"label": "What's next:", "text": "Sen. Chris Coons, in line to chair Senate Foreign Relations, is poised to investigate workarounds to China chip bans."}
+  ],
+  "date": "Nov. 25, 2026",
+  "sources": "Sources: CBS News investigation (Josh Boswell), Nov. 25, 2026, citing corporate filings, court records, Nvidia partner listings and filings, and ownership research by C4ADS; New York Times trade-records analysis, as cited by CBS.",
+  "footer_right": "Whip illustration"
+}
