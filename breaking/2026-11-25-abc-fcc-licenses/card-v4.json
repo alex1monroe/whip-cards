@@ -1,0 +1,17 @@
+{
+  "layout": "quote",
+  "output": "option-a-final",
+  "kicker": "BREAKING · FREE SPEECH",
+  "date": "Nov. 25, 2026",
+  "headline": "Judge blocks FCC's early review of ABC licenses",
+  "quote": "This is not a|*close case.*",
+  "attribution": "Judge Loren AliKhan, U.S. District Court",
+  "other_side": "FCC: The ruling is “wrong on the facts and wrong on the law.”",
+  "source": "Source: ABC v. FCC, D.D.C., Nov. 25 opinion",
+  "footer_right": "Whip illustration",
+  "art": "tower",
+  "art_size": {
+    "tall": 240,
+    "wide": 700
+  }
+}
