@@ -1,0 +1,40 @@
+{
+  "kicker": "NEW \u00b7 COST OF LIVING",
+  "date": "Nov. 27, 2026",
+  "headline": "AI chip shortage lifts *holiday tech prices*",
+  "stat": "5\u00d7",
+  "stat_sub": "DDR5 prices in a year",
+  "bars_title": "",
+  "bars": [
+    {
+      "label": "Echo Dot",
+      "note": "",
+      "value": 60,
+      "text": "+60%"
+    },
+    {
+      "label": "Xbox Series X",
+      "note": "",
+      "value": 23,
+      "text": "+$150"
+    },
+    {
+      "label": "MacBook Neo",
+      "note": "",
+      "value": 17,
+      "text": "+$100"
+    },
+    {
+      "label": "iPhone 18 Pro",
+      "note": "",
+      "value": 9,
+      "text": "+$100"
+    }
+  ],
+  "other_side": "Why: Chipmakers prioritize AI memory; fabs due in 2028.",
+  "source": "Sources: Fortune; WSJ; Xbox Wire; MacRumors; Counterpoint",
+  "footer_right": "Whip illustration",
+  "art": "none",
+  "headline_px": 56,
+  "stat_px": 400
+}
