@@ -1,0 +1,23 @@
+{
+  "kicker": "NEW · CORRUPTION & ETHICS",
+  "date": "Nov. 26, 2026",
+  "headline": "U.S. agency joins deal for *Lukoil’s* overseas assets",
+  "roles": [
+    {
+      "big": "BIDDER",
+      "sub": "U.S. DFC is in the buying group",
+      "color": "paper"
+    },
+    {
+      "big": "REGULATOR",
+      "sub": "U.S. Treasury must sign off",
+      "color": "yellow"
+    }
+  ],
+  "other_side": "DFC official: Moving energy assets into U.S. or allied hands is “a key policy priority.”",
+  "source": "Sources: AP; Reuters, Nov. 25, 2026",
+  "footer_right": "Whip illustration",
+  "art": "none",
+  "headline_px": 56,
+  "big_px": 250
+}
