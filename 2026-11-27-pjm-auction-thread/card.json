@@ -1,0 +1,26 @@
+{
+  "layout": "gap",
+  "kicker": "ELECTRIC BILLS · COST OF LIVING NEWS",
+  "date": "Nov. 27, 2026",
+  "headline": "Power auction behind *67M* bills won't wait",
+  "gap": {
+    "from": {
+      "date": "NOV. 25",
+      "text": "PJM rejects advocates' delay request"
+    },
+    "big": "14 DAYS",
+    "to": {
+      "date": "DEC. 9",
+      "text": "Capacity auction *opens*"
+    },
+    "big_size": {
+      "tall": 330,
+      "wide": 300
+    }
+  },
+  "finding": "Advocates: “Billions” in “unnecessary capacity costs.”",
+  "other_side": "PJM: A delay now “would be disruptive.”",
+  "source": "Sources: PJM Board letter, Nov. 25; consumer advocates' letter, Nov. 18",
+  "footer_right": "Whip illustration",
+  "art": "none"
+}

@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-27",
+  "account": "@whipcampaigns",
+  "status": "draft_only_not_posted_not_scheduled",
+  "story": "PJM won't delay the Dec. 9 capacity auction despite 7 states' consumer advocates; electric bills/data centers",
+  "why": "Whip voter-priority ranks (Nov. 26 snapshot, polls as of Nov. 23): 'Electricity bills & data centers' is the No. 2 issue in Cost of Living (No. 1 domain) and No. 1 in Environment, Energy & Utilities; hard deadline Dec. 9 and Pa. bills rise Dec. 1.",
+  "card": "/home/box/whip/threads/2026-11-27-pjm-auction-electric-bills/card.png",
+  "card_wide": "/home/box/whip/threads/2026-11-27-pjm-auction-electric-bills/card_wide.png",
+  "card_words": 40,
+  "card_layout": "gap hero (Nov. 25 -> 14 DAYS -> Dec. 9)",
+  "alt": "Whip illustration, dark news card dated Nov. 27, 2026. Two-tone chip reads Electric Bills, Cost of Living News, with no dot. Headline: Power auction behind 67M bills won't wait, with 67M in yellow. A vertical timeline: Nov. 25, PJM rejects advocates' delay request; then, in giant letters, 14 DAYS; then Dec. 9, marked with a yellow dot, capacity auction opens. Two attributed lines below: Advocates: \"Billions\" in \"unnecessary capacity costs.\" PJM: A delay now \"would be disruptive.\" Source line: PJM Board letter, Nov. 25; consumer advocates' letter, Nov. 18.",
+  "alt_chars": 561,
+  "posts": [
+    {
+      "n": 1,
+      "text": "The power auction behind electric bills for 67 million people opens Dec. 9, and it isn't moving.\n\nPJM's board told consumer advocates from 7 states on Nov. 25 that a delay this late \"would be disruptive to the markets as a whole.\" Only FERC can order one, PJM says.",
+      "chars": 265,
+      "media": [
+        "card.png"
+      ],
+      "alt": "Whip illustration, dark news card dated Nov. 27, 2026. Two-tone chip reads Electric Bills, Cost of Living News, with no dot. Headline: Power auction behind 67M bills won't wait, with 67M in yellow. A vertical timeline: Nov. 25, PJM rejects advocates' delay request; then, in giant letters, 14 DAYS; then Dec. 9, marked with a yellow dot, capacity auction opens. Two attributed lines below: Advocates: \"Billions\" in \"unnecessary capacity costs.\" PJM: A delay now \"would be disruptive.\" Source line: PJM Board letter, Nov. 25; consumer advocates' letter, Nov. 18."
+    },
+    {
+      "n": 2,
+      "text": "Advocates from Ohio, Pa., N.J., Md., Del., W.Va. and Ill. asked for the delay Nov. 18, warning of \"billions of dollars in unnecessary capacity costs\" from speculative data-center demand.\n\nOhio's Maureen Willis: \"Data centers should be responsible for the costs they create.\"",
+      "chars": 274
+    },
+    {
+      "n": 3,
+      "text": "PJM's own independent market monitor also urged a delay. It says data-center load has already added $29.4 billion in capacity costs for all customers.\n\nIt says the December auction is effectively ensured to clear at the maximum price, adding another $5 billion to $10 billion.",
+      "chars": 276
+    },
+    {
+      "n": 4,
+      "text": "PJM's side: Board Chair Paula Conboy agreed data-center demand is \"a root cause\" of the supply crunch.\n\nBut she wrote the price cap matches the last three auctions, so capacity costs \"would not rise from where they are now,\" and that states, not PJM, decide what data centers pay.",
+      "chars": 280
+    },
+    {
+      "n": 5,
+      "text": "The bills are already moving. Pennsylvania's PUC says 10 of its 11 regulated electric utilities raise residential supply prices Dec. 1, including PECO and PPL at +10.3% each. The PUC says those prices are based on wholesale market rates. PJM runs that market.",
+      "chars": 259
+    },
+    {
+      "n": 6,
+      "text": "What's next: only FERC can delay the Dec. 9 auction, PJM says. The advocates cite January principles signed by all 13 PJM-state governors calling for \"real and verified\" data-center forecasts.\n\nShould projected data-center demand count in the auction that helps set your bill?",
+      "chars": 276
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "PJM Board of Managers (Chair Paula Conboy) response to consumer advocates, Nov. 25, 2026",
+      "url": "https://www.pjm.com/-/media/DotCom/about-pjm/who-we-are/public-disclosures/2026/20261125-board-response-to-the-consumer-advocates-letter-urging-postponement-of-upcoming-bra.pdf",
+      "posts": [
+        1,
+        4,
+        6
+      ]
+    },
+    {
+      "n": 2,
+      "label": "Consumer advocates' letter to PJM Board (OH, DE, WV, MD, PA, NJ, IL x2), Nov. 18, 2026",
+      "url": "https://www.pjm.com/-/media/DotCom/about-pjm/who-we-are/public-disclosures/2026/20261119-several-consumer-advocates-letter-pjm-board-urging-postponement-upcoming-bra.pdf",
+      "posts": [
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "n": 3,
+      "label": "Office of the Ohio Consumers' Counsel press release (Maureen Willis quotes; PJM serves ~67M people), Nov. 18, 2026",
+      "url": "https://www.occ.ohio.gov/media/1437",
+      "posts": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 4,
+      "label": "Monitoring Analytics (PJM Independent Market Monitor), 2026 Q3 State of the Market, Section 1",
+      "url": "https://www.monitoringanalytics.com/reports/PJM_State_of_the_Market/2026/2026q3-som-pjm.pdf",
+      "posts": [
+        3
+      ]
+    },
+    {
+      "n": 5,
+      "label": "Pennsylvania PUC press release: Dec. 1 Price to Compare changes, Nov. 23, 2026",
+      "url": "https://www.puc.pa.gov/press-release/2026/puc-encourages-consumers-to-prepare-for-rising-winter-electric-costs-as-december-1-brings-price-changes-11132026",
+      "posts": [
+        5
+      ]
+    }
+  ]
+}
