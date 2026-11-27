@@ -1,0 +1,66 @@
+{
+  "slug": "2026-11-27-nathan-v-trump-eo14418",
+  "account": "@whipcampaigns",
+  "slot": "Daily @America",
+  "date": "2026-11-27",
+  "status": "draft_for_approver",
+  "headline": "Judge pauses Trump's second birthright order",
+  "tweet": "@America Judge Christopher Cooper issued a classwide preliminary injunction in Nathan v. Trump, temporarily blocking EO 14418 for targeted U.S.-born children born on or after Aug. 6, 2026, pending a merits ruling. The White House said it is \"consistent with\" the Supreme Court.",
+  "tweet_chars": 277,
+  "alt": "Whip illustration, dark news card dated Nov. 27, 2026. Two-tone chip reads Court Ruling, Immigration & Courts, with no dot. Headline: Judge pauses Trump's second birthright order, with pauses in yellow. A three-step 2026 timeline: June 30, the Supreme Court rules 6-3 and strikes the first birthright citizenship order in Trump v. Barbara; Aug. 6, President Trump signs Executive Order 14418; Nov. 25, highlighted in a yellow box, a classwide preliminary injunction in Nathan v. Trump. Text below the timeline reads: Pending merits. Targeted U.S.-born children from Aug. 6. A White House line says the order is \"consistent with\" the Supreme Court. Source: Nathan v. Trump, D.D.C., Nov. 25, 2026.",
+  "alt_chars": 695,
+  "card_words": 40,
+  "card_size": [
+    2440,
+    3092
+  ],
+  "card_16x9_size": [
+    1920,
+    1080
+  ],
+  "local_dir": "/home/box/whip/breaking/2026-11-27-nathan-v-trump-eo14418",
+  "card_png": "/home/box/whip/breaking/2026-11-27-nathan-v-trump-eo14418/card.png",
+  "card_16x9_png": "/home/box/whip/breaking/2026-11-27-nathan-v-trump-eo14418/card-16x9.png",
+  "source_line": "Source: Nathan v. Trump, D.D.C., Nov. 25, 2026",
+  "footer_right": "Whip illustration",
+  "facts": {
+    "case": "Nathan v. Trump, No. 1:26-cv-03377 (D.D.C.)",
+    "judge": "U.S. District Judge Christopher R. Cooper",
+    "orders": "ECF 50 class certification; ECF 51 classwide preliminary injunction; ECF 52 67-page memorandum opinion, all filed Nov. 25, 2026",
+    "relief": "Classwide preliminary injunction, pending a final ruling on the merits or further order of the court, enjoining DHS, State, and SSA from enforcing EO 14418 (91 Fed. Reg. 51991) against the certified class. Not a final merits judgment and not a strike-down of the entire order.",
+    "class": "All persons born on or after August 6, 2026: (1) born in the United States as defined in 8 U.S.C. \u00a7 1101(a)(38); (2) not born to a foreign diplomatic officer accredited to the United States; (3) neither parent is a U.S. citizen; and (4) either parent is or will be categorized as falling within EO 14418 \u00a7\u00a7 2(a)-(c).",
+    "exclusions": "Injunction does not reach EO 14418 \u00a7 2(b)(i) (accredited diplomats) or \u00a7 2(d) (territories). Cooper denied a stay pending appeal. CourtListener docket last known filing Nov. 25, 2026; last updated Nov. 27, 2026, 7:48 a.m. ET, with no notice of appeal on file.",
+    "prior": "Follows Trump v. Barbara, 609 U.S. 719 (2026), decided June 30, 2026, 6-3, which struck down EO 14160. EO 14418 was signed Aug. 6, 2026.",
+    "white_house": "ABC News, Nov. 25, 2026 (Alexander Mallin): \u201cThis is just another ruling from an activist judge appointed by Obama attempting to thwart President Trump\u2019s commonsense agenda. The birthright citizenship executive order is consistent with the holdings and analysis set forth by the Supreme Court,\u201d White House spokesperson said in a statement. Reuters (Nate Raymond, via Investing.com) and Fox News attribute the same statement to White House spokeswoman Lauren Bis. Tweet and card quote the 'consistent with' clause and attribute it to the White House, matching ABC."
+  },
+  "sources": [
+    {
+      "label": "Preliminary injunction order, ECF 51, Nov. 25, 2026",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.297026/gov.uscourts.dcd.297026.51.0.pdf"
+    },
+    {
+      "label": "Memorandum opinion, ECF 52, Nov. 25, 2026 (67 pages)",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.297026/gov.uscourts.dcd.297026.52.0.pdf"
+    },
+    {
+      "label": "CourtListener docket, last updated Nov. 27, 2026, 7:48 a.m. ET",
+      "url": "https://www.courtlistener.com/docket/74859805/nathan-v-trump/"
+    },
+    {
+      "label": "ACLU press release, Nov. 25, 2026",
+      "url": "https://www.aclu.org/press-releases/federal-court-blocks-new-trump-birthright-citizenship-executive-order"
+    },
+    {
+      "label": "ABC News, Alexander Mallin, Nov. 25, 2026",
+      "url": "https://abcnews.com/Politics/judge-blocks-latest-trump-effort-restrict-birthright-citizenship/story?id=138451919"
+    },
+    {
+      "label": "Reuters (via Investing.com), Nate Raymond, Nov. 25, 2026",
+      "url": "https://www.investing.com/news/stock-market-news/trumps-newest-order-curtailing-birthright-citizenship-is-blocked-by-second-judge-5051543"
+    },
+    {
+      "label": "Trump v. Barbara (25-365), U.S. Supreme Court, June 30, 2026",
+      "url": "https://www.supremecourt.gov/opinions/25pdf/25-365_4hdj.pdf"
+    }
+  ]
+}

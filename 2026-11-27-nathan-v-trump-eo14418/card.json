@@ -1,0 +1,14 @@
+{
+  "kicker": "COURT RULING · IMMIGRATION & COURTS",
+  "date": "Nov. 27, 2026",
+  "headline": "Judge *pauses* Trump's second birthright order",
+  "steps": [
+    {"date": "June 30", "text": "SCOTUS 6-3 strikes first order"},
+    {"date": "Aug. 6", "text": "EO 14418 signed"},
+    {"date": "Nov. 25", "text": "Classwide preliminary injunction", "hot": true}
+  ],
+  "means": "Pending merits. Targeted U.S.-born children from Aug. 6.",
+  "other_side": "White House: \"Consistent with\" SCOTUS.",
+  "source": "Source: Nathan v. Trump, D.D.C., Nov. 25, 2026",
+  "footer_right": "Whip illustration"
+}
