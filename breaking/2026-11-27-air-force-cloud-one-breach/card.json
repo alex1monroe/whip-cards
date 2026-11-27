@@ -1,0 +1,18 @@
+{
+  "breaking": "BREAKING",
+  "kicker": "CYBER · NATIONAL SECURITY NEWS",
+  "date": "Nov. 27, 2026",
+  "headline": "Hackers breach Air Force's *Cloud One*",
+  "hub": "CLOUD ONE",
+  "hub_sub": "BREACHED",
+  "nodes": [
+    {"label": "Pay & personnel", "icon": "pay"},
+    {"label": "Logistics", "icon": "truck"},
+    {"label": "Air-defense radar", "icon": "radar"},
+    {"label": "Munitions tracking", "note": "200+ bases", "icon": "missile", "hot": true}
+  ],
+  "means": "Who did it, and what was taken, is unknown.",
+  "other_side": "Air Force: Won't comment on specific systems.",
+  "source": "Source: Reuters",
+  "footer_right": "Whip illustration"
+}
