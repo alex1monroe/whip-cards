@@ -1,0 +1,61 @@
+{
+  "output": "card.png",
+  "kicker": "WHIP DATA · NOV. 26 SNAPSHOT",
+  "headline": "ISSUE MOMENTUM",
+  "headline_accent": "LOUDEST ONLINE ISN'T VOTERS' TOP",
+  "dek": "The most-discussed issues online on Nov. 26, next to what voters rank highest.",
+  "graphic": {
+    "type": "momentum",
+    "sections": [
+      {
+        "kind": "hot",
+        "title": "TOP ONLINE HEAT · NOV. 26",
+        "rows": [
+          [
+            "NO. 1",
+            "Israel, Gaza & Middle East aid"
+          ],
+          [
+            "NO. 2",
+            "Crypto, digital assets & SEC"
+          ],
+          [
+            "NO. 3",
+            "Ukraine aid & NATO commitments"
+          ]
+        ]
+      },
+      {
+        "kind": "up",
+        "title": "VOTERS' TOP PRIORITIES · POLLING AS OF NOV. 23",
+        "rows": [
+          [
+            "NO. 1",
+            "Cost of living (category)"
+          ],
+          [
+            "NO. 1",
+            "Health care costs & insurance premiums (single issue)"
+          ],
+          [
+            "NO. 2",
+            "Electricity bills & data centers"
+          ]
+        ]
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "Online vs. voters:",
+      "text": "The three loudest issues online rank No. 15 or lower of 61 with voters. Health care costs, voters' No. 1 single issue, ranked No. 10 online."
+    },
+    {
+      "label": "Lighter day:",
+      "text": "Heat is relative within the day; Nov. 26 had lighter volume."
+    }
+  ],
+  "date": "Nov. 27, 2026",
+  "sources": "Whip data. Online heat for Nov. 26, 2026, ranked within the day (59 issues scored; 123,696 messages vs. 149,457 on Nov. 25). Heat is relative within the day; Nov. 26 had lighter volume. Voter priority from polling as of Nov. 23, 2026 (61 issues). Source: api.whipcampaigns.com/civic, pulled Nov. 27, 2026.",
+  "footer_right": "Whip data"
+}
