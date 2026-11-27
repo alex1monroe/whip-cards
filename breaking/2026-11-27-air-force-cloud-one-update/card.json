@@ -1,0 +1,15 @@
+{
+  "breaking": "UPDATE",
+  "kicker": "CYBER · NATIONAL SECURITY NEWS",
+  "date": "Nov. 27, 2026",
+  "headline": "Official: Cloud One hack *mitigated*",
+  "steps": [
+    {"tag": "REUTERS", "text": "Found during upgrade work", "kind": "past"},
+    {"tag": "PBS", "text": "Intrusion earlier this year; no\u00a0interruptions", "kind": "hot"},
+    {"tag": "UNKNOWN", "text": "Who, and what data", "kind": "open"}
+  ],
+  "means": "Accounts differ: Reuters' sources cited\u00a0disruption.",
+  "other_side": "Air Force: Won't comment on specific systems.",
+  "source": "Source: PBS News Hour; Reuters",
+  "footer_right": "Whip illustration"
+}
