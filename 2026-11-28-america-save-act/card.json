@@ -1,0 +1,26 @@
+{
+  "layout": "gap",
+  "output": "card",
+  "kicker": "SAVE ACT \u00b7 Elections",
+  "date": "Nov. 28, 2026",
+  "headline": "Lee wants the *SAVE Act* back on the floor",
+  "gap": {
+    "from": {
+      "date": "MONDAY",
+      "text": "Senate back"
+    },
+    "big": "*34 DAYS*",
+    "to": {
+      "date": "JAN. 3",
+      "text": "Bill dies if not passed"
+    },
+    "big_size": {
+      "tall": 300,
+      "wide": 300
+    }
+  },
+  "other_side": "Sen. Chuck Schumer on X, Oct. 1: \"The SAVE Act will NEVER become law.\"",
+  "source": "Sen. Mike Lee on X; Senate roll call vote 151; Sen. Chuck Schumer on X",
+  "footer_right": "Whip illustration",
+  "art": "none"
+}
