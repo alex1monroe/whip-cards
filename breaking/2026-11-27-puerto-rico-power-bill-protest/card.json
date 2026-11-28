@@ -1,0 +1,24 @@
+{
+  "breaking": "BREAKING",
+  "kicker": "ENERGY BILLS · COST OF LIVING NEWS",
+  "date": "Nov. 27, 2026",
+  "headline": "Thousands protest Puerto Rico's *power bills*",
+  "chart_title": "Home power, ¢/kWh · Sept. 2026",
+  "bars": [
+    {
+      "label": "Puerto Rico",
+      "value": 25.15,
+      "hot": true
+    },
+    {
+      "label": "U.S. avg.",
+      "value": 18.17,
+      "hot": false
+    }
+  ],
+  "chart_note": "EIA, preliminary",
+  "means": "Protesters cite bills, outages, low pensions.",
+  "other_side": "Gov. González: Praised ruling voiding LUMA's contract extension.",
+  "source": "Source: AP; EFE; U.S. EIA (Form 861M, Sept. 2026)",
+  "footer_right": "Whip illustration"
+}
