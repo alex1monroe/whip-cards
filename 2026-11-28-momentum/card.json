@@ -1,0 +1,79 @@
+{
+  "output": "card.png",
+  "kicker": "WHIP DATA · NOV. 26 → NOV. 27",
+  "headline": "ISSUE MOMENTUM",
+  "headline_accent": "VOTER ID AND AI HEAT UP",
+  "dek": "Online heat, day over day. Electricity bills is a top voter priority also near the top online.",
+  "graphic": {
+    "type": "momentum",
+    "sections": [
+      {
+        "kind": "up",
+        "title": "HEATING UP",
+        "rows": [
+          [
+            "UP 102%",
+            "Voter ID & election laws"
+          ],
+          [
+            "UP 69%",
+            "AI regulation, deepfakes & safety"
+          ],
+          [
+            "UP 59%",
+            "Government corruption & ethics"
+          ]
+        ]
+      },
+      {
+        "kind": "hot",
+        "title": "HOT (HOLDING)",
+        "rows": [
+          [
+            "NO. 1",
+            "Israel, Gaza & Middle East aid (flat)"
+          ],
+          [
+            "NO. 2",
+            "Cyberattacks & ransomware (up 12%)"
+          ],
+          [
+            "NO. 3",
+            "Ukraine aid & NATO commitments (down 2%)"
+          ]
+        ]
+      },
+      {
+        "kind": "down",
+        "title": "COOLING OFF",
+        "rows": [
+          [
+            "DOWN 36%",
+            "Air traffic control & aviation safety"
+          ],
+          [
+            "DOWN 22%",
+            "AI chips & export controls"
+          ],
+          [
+            "DOWN 22%",
+            "Congressional stock trading & ethics"
+          ]
+        ]
+      }
+    ]
+  },
+  "means": [
+    {
+      "label": "Online vs. voters:",
+      "text": "Electricity bills & data centers ties as voters' top single issue (polling as of Nov. 23) and ranked No. 9 online."
+    },
+    {
+      "label": "Comparable days:",
+      "text": "59 issues had heat Nov. 26, 60 on Nov. 27; 123,588 vs. 130,203 messages."
+    }
+  ],
+  "date": "Nov. 28, 2026",
+  "sources": "Whip data: online heat is relative within each day; change compares Nov. 26 and Nov. 27, 2026 (59 and 60 issues; 123,588 and 130,203 messages). Voter priority from polling as of Nov. 23, 2026. Source: api.whipcampaigns.com/civic, pulled Nov. 28, 2026.",
+  "footer_right": "Whip data"
+}
