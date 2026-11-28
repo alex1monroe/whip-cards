@@ -1,28 +1,30 @@
 {
-  "kicker": "UPDATE · NATIONAL SECURITY NEWS",
+  "kicker": "UPDATE \u00b7 NATIONAL SECURITY NEWS",
   "date": "Nov. 28, 2026",
-  "headline": "EPA: No lead in *Iowa water* tests",
+  "headline": "EPA: No lead in *post-blast water* tests",
   "stat": "0",
   "stat_sub": "lead detections in 38 post-blast drinking-water samples",
-  "bars_title": "EPA samples collected",
+  "bars_title": "EPA samples collected, as of Nov. 28",
   "bars": [
     {
       "label": "Before blast",
       "note": "",
-      "value": 1591,
-      "text": "1,591"
+      "value": 1632,
+      "text": "1,632"
     },
     {
       "label": "After blast",
       "note": "",
-      "value": 1600,
-      "text": "1,600+"
+      "value": 1607,
+      "text": "1,607"
     }
   ],
-  "other_side": "Still pending: Soil, dust and tap-water results.",
+  "other_side": "Experts: Soil and surface tests are the real measure. Still pending.",
   "source": "Sources: EPA, Nov. 28; Reuters; KCRG",
   "footer_right": "Whip illustration",
   "art": "none",
   "headline_px": 56,
-  "stat_px": 440
+  "stat_px": 440,
+  "headline_px_wide": 50,
+  "stat_px_wide": 300
 }
