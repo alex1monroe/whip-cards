@@ -1,9 +1,9 @@
 {
   "output": "card.png",
-  "kicker": "WHIP DATA · NOV. 26 → NOV. 27",
+  "kicker": "WHIP DATA \u00b7 NOV. 26 TO NOV. 27",
   "headline": "ISSUE MOMENTUM",
   "headline_accent": "VOTER ID AND AI HEAT UP",
-  "dek": "Online heat, day over day. Electricity bills is a top voter priority also near the top online.",
+  "dek": "Online heat, day over day, across 60 issues.",
   "graphic": {
     "type": "momentum",
     "sections": [
@@ -20,14 +20,14 @@
             "AI regulation, deepfakes & safety"
           ],
           [
-            "UP 59%",
-            "Government corruption & ethics"
+            "UP 66%",
+            "Roads, bridges & commuter rail"
           ]
         ]
       },
       {
         "kind": "hot",
-        "title": "HOT (HOLDING)",
+        "title": "HOT",
         "rows": [
           [
             "NO. 1",
@@ -35,7 +35,7 @@
           ],
           [
             "NO. 2",
-            "Cyberattacks & ransomware (up 12%)"
+            "Cyberattacks & ransomware (up from No. 8)"
           ],
           [
             "NO. 3",
@@ -52,8 +52,8 @@
             "Air traffic control & aviation safety"
           ],
           [
-            "DOWN 22%",
-            "AI chips & export controls"
+            "DOWN 24%",
+            "Assault weapon bans & checks"
           ],
           [
             "DOWN 22%",
@@ -66,7 +66,7 @@
   "means": [
     {
       "label": "Online vs. voters:",
-      "text": "Electricity bills & data centers ties as voters' top single issue (polling as of Nov. 23) and ranked No. 9 online."
+      "text": "Electricity bills & data centers is tied for No. 1 in voter polling (as of Nov. 23) but ranked No. 9 online."
     },
     {
       "label": "Comparable days:",
@@ -74,6 +74,6 @@
     }
   ],
   "date": "Nov. 28, 2026",
-  "sources": "Whip data: online heat is relative within each day; change compares Nov. 26 and Nov. 27, 2026 (59 and 60 issues; 123,588 and 130,203 messages). Voter priority from polling as of Nov. 23, 2026. Source: api.whipcampaigns.com/civic, pulled Nov. 28, 2026.",
+  "sources": "Whip data: online heat is relative within each day; change compares Nov. 26 and Nov. 27, 2026 (59 and 60 issues; 123,588 and 130,203 messages). Movers limited to issues with at least 500 messages both days. Voter priority from polling as of Nov. 23, 2026. Source: api.whipcampaigns.com/civic, pulled Nov. 28, 2026.",
   "footer_right": "Whip data"
 }
