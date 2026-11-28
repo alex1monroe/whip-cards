@@ -1,0 +1,28 @@
+{
+  "breaking": "BREAKING",
+  "kicker": "CRYPTO · GOVERNMENT ETHICS",
+  "date": "Nov. 28, 2026",
+  "headline": "Trump family-backed crypto token falls *about 50%* overnight",
+  "chart_title": "WLFI price",
+  "bars": [
+    {
+      "label": "Nov. 27",
+      "value": 0.039,
+      "text": "$0.039",
+      "hot": false
+    },
+    {
+      "label": "Nov. 28 a.m.",
+      "value": 0.018,
+      "text": "$0.018",
+      "hot": true
+    }
+  ],
+  "means": "Down over 90% since trading|began in Sept. 2025.",
+  "other_side": [
+    "World Liberty: Binance auto-closed futures positions.",
+    "Binance: Reviewing the trades."
+  ],
+  "source": "Source: Reuters, Nov. 28, 2026",
+  "footer_right": "Whip illustration"
+}
