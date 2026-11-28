@@ -1,0 +1,36 @@
+{
+  "kicker": "ELECTRIC BILLS · COST OF LIVING NEWS",
+  "date": "Nov. 28, 2026",
+  "headline": "Who pays for *AI's power?*",
+  "stat": "#1",
+  "stat_sub": "Tied for No. 1 of 61 voter issues",
+  "bars_title": "Residential price vs. Sept. 2025 (EIA)",
+  "bars": [
+    {
+      "label": "Ohio",
+      "note": "",
+      "value": 8.9,
+      "text": "+8.9%"
+    },
+    {
+      "label": "Pennsylvania",
+      "note": "",
+      "value": 8.7,
+      "text": "+8.7%"
+    },
+    {
+      "label": "U.S.",
+      "note": "",
+      "value": 0.7,
+      "text": "+0.7%"
+    }
+  ],
+  "other_side": "Study: Data centers explain ~4% of the 2020–25 rise at utilities studied.",
+  "source": "Sources: Whip (polls Nov. 23); EIA, Sept. 2026; Harvard-Penn study",
+  "footer_right": "Whip illustration",
+  "art": "none",
+  "headline_px": 64,
+  "stat_px": 400,
+  "headline_px_wide": 56,
+  "stat_px_wide": 280
+}
