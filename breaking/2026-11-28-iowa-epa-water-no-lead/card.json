@@ -1,0 +1,28 @@
+{
+  "kicker": "UPDATE · NATIONAL SECURITY NEWS",
+  "date": "Nov. 28, 2026",
+  "headline": "EPA: No lead in *Iowa water* tests",
+  "stat": "0",
+  "stat_sub": "lead detections in 38 post-blast drinking-water samples",
+  "bars_title": "EPA samples collected",
+  "bars": [
+    {
+      "label": "Before blast",
+      "note": "",
+      "value": 1591,
+      "text": "1,591"
+    },
+    {
+      "label": "After blast",
+      "note": "",
+      "value": 1600,
+      "text": "1,600+"
+    }
+  ],
+  "other_side": "Still pending: Soil, dust and tap-water results.",
+  "source": "Sources: EPA, Nov. 28; Reuters; KCRG",
+  "footer_right": "Whip illustration",
+  "art": "none",
+  "headline_px": 56,
+  "stat_px": 440
+}
