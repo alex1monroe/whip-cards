@@ -1,0 +1,39 @@
+{
+  "kicker": "DEEP DIVE · TECHNOLOGY NEWS",
+  "date": "Nov. 28, 2026",
+  "headline": "Who writes America's *AI rules?*",
+  "stat": "76%",
+  "stat_sub": "say government is doing too little on AI",
+  "columns": [
+    {
+      "label": "Congress",
+      "kicker": "H.R. 9925",
+      "break_before": 2,
+      "lines": [
+        "FRONTIER Act: in committee,",
+        "no action since July 23",
+        "Senate 99-1, July 1, 2025",
+        "stripped the state AI-law freeze"
+      ]
+    },
+    {
+      "label": "White House",
+      "kicker": "EO 14365",
+      "kicker_font": "id",
+      "lines": [
+        "Calls for one national standard",
+        "Dec. 11, 2025"
+      ]
+    },
+    {
+      "label": "States",
+      "kicker": "Jan. 1, 2027",
+      "lines": [
+        "Colorado's and California's automated-decision rules start"
+      ]
+    }
+  ],
+  "other_side": "Other side: Federal-floor supporters (Rep. Sara Jacobs) vs. national-standard supporters (the White House).",
+  "source": "Sources: Congress.gov; Senate roll call 363; EO 14365; Foley; USC Annenberg (Nov. 2).",
+  "footer_right": "Whip illustration"
+}
